@@ -1,4 +1,7 @@
-# Alaankwa
+# Alaankwa ENG
+* Английская оригинальная ветка мода Alaankwa: https://github.com/temetvince/x3ap-lu
+
+# Alaankwa RUS
 * Для загрузки, перейдите к последней версии и кликните по 'Source code (zip)': https://github.com/alexalsp/x3ap-lu-rus/releases/
 * 'Alaankwa' значит "звезда" на языке племени (Myaamia).
 
