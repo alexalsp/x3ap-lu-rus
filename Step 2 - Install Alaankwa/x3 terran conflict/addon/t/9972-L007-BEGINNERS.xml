@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language id="44">
+	<page id="9972" title="Mayhem 3">
+		<t id="1">1200</t> <!-- Research cycle, in seconds (default: 1200) -->
+		<t id="158">10</t> <!-- Research points per scan from data scanner. (default: 10) -->
+		<t id="201">10</t> <!-- Research points per research cycle at 100%. (default: 10) -->
+		<t id="10">100</t> <!-- Research cost multiplier (default: 100) -->
+		<t id="2">5</t> <!-- Outposts building update cycle, in seconds (default: 5) -->
+		<t id="176">100</t> <!-- General crafting resource cost multiplier, for lasers, missiles, shields, stations and ships. (default: 100) -->
+		<t id="200">100</t> <!-- General crafting time cost multiplier, for lasers, missiles, shields, stations and ships. (default: 100) -->
+		<t id="261">33</t> <!-- General crafting time cost multiplier, for lasers, missiles, shields, stations and ships. Prologue mode only. (default: 33) -->
+		<t id="131">9</t> <!-- Quality factor. (default: 9) -->
+		<t id="39">50</t> <!-- Recycle factor, in % of normal costs. (default: 50) -->
+		<t id="38">0</t> <!-- Food display after Outposts names, 0 to deactivate. Also affect Research station info display. (default: 0) -->
+		<t id="18">1700</t> <!-- Minimum time between the OCV waves, in seconds (global invasion). (default: 1700) -->
+		<t id="19">1900</t> <!-- Maximum time between the OCV waves, in seconds (global invasion). (default: 1900) -->
+		<t id="204">3600</t> <!-- Xenon small invasions delay, in seconds. (default: 3600) -->
+		<t id="207">14400</t> <!-- Xenon big invasions delay, in seconds. (default: 14400) -->
+		<t id="209">1300</t> <!-- Pirate fighters spawning delay, in seconds. (default: 900) -->
+		<t id="219">50</t> <!-- Pirate limit in all the galaxy. (default: 50) -->
+		<t id="212">8</t> <!-- Maximum number of pirate bases in the galaxy. (default: 8) -->
+		<t id="221">1</t> <!-- Scale pirate fighters spawn to the size of the player territory. If set to 0, only one pirate will spawn at each cycle. (default: 1) -->
+		<t id="70">4</t> <!-- Maximum perks per Outposts. (default: 3) -->
+		<t id="71">20000</t> <!-- Total project size needed to increase ship specialization by 1%. (default: 20000) -->		
+		<t id="72">20000</t> <!-- Total project size needed to increase laser specialization by 1%. (default: 20000) -->		
+		<t id="73">20000</t> <!-- Total project size needed to increase missile specialization by 1%. (default: 20000) -->		
+		<t id="74">20000</t> <!-- Total project size needed to increase shield specialization by 1%. (default: 20000) -->
+		<t id="175">50000</t> <!-- Total project size needed to increase station specialization by 1%. (default: 20000) -->
+		<t id="142">50</t> <!-- Maximum specialization level. (default: 50) -->
+		<t id="164">3600</t> <!-- Maintenance cycle, in seconds. (default: 600) -->	
+		<t id="75">400</t> <!-- Maintenance cost multiplier. (default: 100) -->
+		<t id="177">0</t> <!-- Free maintenance for the ship you're piloting yourself. (default: 0) -->
+		<t id="98">100</t> <!-- Tax multiplier. Tax is based on number of people and is collected every hour. (default: 100) -->
+		<t id="119">0</t> <!-- Player cheat: all ships you craft receive full lasers and shields. (default: 0) -->	
+		<t id="132">0</t> <!-- Disable bailing. (default: 0) -->
+		<t id="213">100</t> <!-- Bailing chance multiplier. (default: 100) -->
+		<t id="210">0</t> <!-- Player ships can bail. (default: 0) -->
+		<t id="197">100</t> <!-- Maximum bailing ships that can be in the galaxy at the same time. (default: 100) -->
+		<t id="214">2</t> <!-- Maximum bailing ships that can be in the same sector at the same time. (default: 2) -->
+		<t id="139">1800</t> <!-- How often the AI checks for its station needs, in seconds. (default: 1800) -->
+		<t id="140">20</t> <!-- Chances (out of 1000) for every ship to drop EACH of his shield/laser when destroyed by ANYONE. (default: 20) -->
+		<t id="232">40</t> <!-- Chances (out of 1000) for every ship to drop EACH of his shield/laser when destroyed by PLAYERSHIP. (default: 40) -->
+		<t id="8">300</t> <!-- Food consumption cycle, in seconds. (default: 300) -->
+		<t id="76">5</t> <!-- People max. growth per consumption cycle. (default: 5) -->
+		<t id="143">6</t> <!-- Waste production factor per consumption cycle (* people). (default: 6) -->
+		<t id="205">100</t> <!-- E-Cell production multiplier (from Solar Panels perk). (default: 100) -->
+		<t id="144">2</t> <!-- Outpost product production factor per consumption cycle (* people). (default: 2) -->
+		<t id="9">1</t> <!-- Outpost resource consumption factor per consumption cycle (* people). (default: 1) -->
+		<t id="145">4</t> <!-- Fleet ratio per X sectors owned (negative is per sector) - Battle Group. (default: 4) -->
+		<t id="146">4</t> <!-- Fleet ratio per X sectors owned (negative is per sector) - Border Patrol. (default: 4) -->
+		<t id="147">4</t> <!-- Fleet ratio per X sectors owned (negative is per sector) - Rearguard. (default: 4) -->
+		<t id="148">4</t> <!-- Fleet ratio per X sectors owned (negative is per sector) - Task Force. (default: 4) -->
+		<t id="149">2</t> <!-- Fleet ratio per X sectors owned (negative is per sector) - Police. (default: 2) -->
+		<t id="150">1</t> <!-- Fleet ratio per X sectors owned (negative is per sector) - Escort. (default: 1) -->
+		<t id="151">2</t> <!-- Initiative ratio. That's how stronger a Battle Group or a Task Force AI fleet needs to be to attack another one. (default: 2) -->
+		<t id="152">4</t> <!-- Retreat ratio. Ratio at which an AI fleet will retreat to the nearest safe Outpost and wait for full reinforcement. Does not affect Police and Escort. (default: 4) -->
+		<t id="153">0</t> <!-- AI cheat: debt system. The AI will build anything when it needs it, and will pay the costs later, if it can. (default: 0) -->
+		<t id="208">1</t> <!-- AI cheat: debt system, only for stations. (default: 1) -->
+		<t id="217">1</t> <!-- AI cheat: debt system, only for Yakis. (default: 1) -->
+		<t id="154">1</t> <!-- AI cheat: shared resources. The AI will use all its Outposts to pay for what it needs. The transfer of resources is free and immediate. (default: 1) -->
+		<t id="159">0</t> <!-- AI cheat: it sees everything and doesn't need to have a ship in a sector to monitor it. For performance reasons, AI Traders and Agents always see everything. (default: 0) -->				
+		<t id="170">0</t> <!-- AI cheat: ships come fully equipped instead of crafting the equipment from real resources. (default: 0) -->
+		<t id="172">0</t> <!-- AI cheat: free stations. (default: 0) -->
+		<t id="222">14400</t> <!-- AI cheat: timeout, in seconds, after which the AI ships waiting to be outfitted will be automatically equipped. 0 is deactivated. (default: 14400) -->
+		<t id="173">10000</t> <!-- Amount of hull repaired by any Outpost every minute. (default: 10000) -->
+		<t id="155">5000</t> <!-- Amount of hull repaired by the Carrier Repair Module every minute. (default: 5000) -->
+		<t id="191">100000</t> <!-- Hull points that all stations regenerate about every minute. (default: 100000) -->
+		<t id="163">14400</t> <!-- Claim duration, in seconds. (default: 14400) -->
+		<t id="156">7200</t> <!-- Truce duration, in seconds. (default: 7200) -->
+		<t id="157">21600</t> <!-- Protectorate duration, in seconds. (default: 21600) -->				
+		<t id="160">-3000</t> <!-- Reputation modifier when the player claims a sector against its owner. (default: -3000) -->				
+		<t id="161">-250</t> <!-- Reputation modifier when the player conquers a sector against all surrounding sector owners, per player sector. (default: -500) -->				
+		<t id="162">1000000</t> <!-- Penalty you must pay if you destroy a station from a Protectorate. (default: 1000000) -->				
+		<t id="165">5000</t> <!-- Illegal cargo scan penalty. (default: 5000) -->
+		<t id="166">3600</t> <!-- Mission offer timeout, in seconds. (default: 3600) -->
+		<t id="167">200</t> <!-- Mission credits reward multiplier. (default: 100) -->
+		<t id="168">200</t> <!-- Mission reputation reward multiplier. (default: 100) -->
+		<t id="171">4</t> <!-- Maximum marines you can enlist per Outpost you own. (default: 4) -->
+		<t id="174">10</t> <!-- Cost of a Jump Beacon, in Jumpdrive Cores. (default: 10) -->
+		<t id="178">33</t> <!-- Terracorp Interorbital Storage costs multiplier, in percent. (default: 33) -->
+		<t id="179">20</t> <!-- Number of people at which the chance of an event per hour is increased by 1%. (default: 20) -->
+		<t id="180">3</t> <!-- Marine boarding: number of decks per M7. (default: 3) -->
+		<t id="181">4</t> <!-- Marine boarding: number of decks per M1. (default: 4) -->
+		<t id="182">6</t> <!-- Marine boarding: number of decks per M2. (default: 6) -->
+		<t id="183">80000</t> <!-- Marine healing cost. (default: 80000) -->
+		<t id="184">300</t> <!-- Marine boarding: sentinel patrol time, in seconds. (default: 300) -->
+		<t id="185">5</t> <!-- Marine boarding: minimum room per deck. Cannot be lower than 2. (default: 5) -->
+		<t id="186">6</t> <!-- Marine boarding: maximum room per deck. (default: 6) -->
+		<t id="187">100</t> <!-- Marine boarding: boarding tasks goal score multiplier. Decrease to make progress go faster. (default: 100) -->
+		<t id="189">10</t> <!-- Marine boarding: maximum target shields to allow ship boarding. (default: 10) -->
+		<t id="190">100</t> <!-- Marine boarding: marine transmissions decoding duration multiplier. (default: 100) -->
+		<t id="188">14400</t> <!-- EMP delay, in seconds. (default: 14400) -->
+		<t id="192">0</t> <!-- Jumpdrive Prototype: only jump to sectors you own. (default: 0) -->
+		<t id="193">0</t> <!-- Experimental Transporter Device: only teleport to ships equipped with a Transporter Device. (default: 0) -->
+		<t id="194">600</t> <!-- Jumpdrive Prototype cooldown. (default: 600) -->
+		<t id="195">60</t> <!-- Experimental Transporter Device cooldown. (default: 60) -->
+		<t id="203">0</t> <!-- Player Outposts are free (AI Outposts are always free). (default: 0) -->
+		<t id="198">0</t> <!-- Ascension needs to be completed to allow the AI to claim sectors. (default: 0) -->
+		<t id="199">0</t> <!-- Reputation rank under which the AI can invade player sectors. eg. at 0, AI will invade player sectors only if the player has -1 to -5. (default: 0) -->	
+		<t id="206">0</t> <!-- Deep strike: allows Battle Groups to invade sectors that do not border their own sectors. Yakis always have Deep strike ON. (default: 0) -->
+		<t id="196">43200</t> <!-- Period of time, in seconds, during which the AI will build everything for free if the galaxy expansion has been set to "none". (default: 43200) -->
+		<t id="211">3</t> <!-- If the AI owns this number of sectors, or less, every crafting will be free. (default: 3) -->
+		<t id="215">1</t> <!-- All player's Workers and Trade run ships use the Fly Safe Path algorithm as default move. Does not affect AI ships. (default: 1) -->
+		<t id="218">0</t> <!-- During the last stage of the plot, OCV only spawns a new wave if the previous one has been totally destroyed. Makes things a lot easier if set to 1. (default: 0) -->
+		<t id="220">21600</t> <!-- Maximum time the AI can spend in "retreat mode", in seconds. (default: 21600) -->
+		<t id="223">517</t> <!-- Reputation cost multiplier to reset your reputation to 0 from a Pirate base. (default: 517) -->
+		<t id="224">0</t> <!-- No-main-turrets-ships VS station tactics. 0: the ship rotates around itself while firing, 1: the ship makes a full stop, 2: the ship circles around the station. This tactics does not apply to ships that have main turrets. In that case, they will behave like fighters, facing the targeted station at all times. (default: 0) -->
+		<t id="225">0</t> <!-- Hide Outpost production messages. (default: 0) -->
+		<t id="260">1</t> <!-- Hide Outpost production messages for lasers, shields and missiles. (default: 1) -->
+		<t id="226">0</t> <!-- Disable player ships fallback manoeuvres. (default: 0) -->
+		<t id="227">500000</t> <!-- Favor point cost. (default: 500000) -->
+		<t id="228">3</t> <!-- AI will not invade empires that own less than or equal to this number of sectors. Set to 0 if you want the AI to be able to annihilate other empires. (default: 3) -->
+		<t id="229">1</t> <!-- Additional combat manoeuvres for all fighters. (default: 1) -->
+		<t id="230">0</t> <!-- Additional combat manoeuvres for all big ships. (default: 0) -->
+		<t id="231">0</t> <!-- Player cheat: ignore all docking restrictions. (default: 0) -->
+		<t id="233">20</t> <!-- Production queue limit for each Outpost. (default: 20) -->
+		<t id="234">0</t> <!-- Enable Outpost events lore messages (id 2700 to 2704). (default: 0) -->
+		<t id="235">10</t> <!-- Default import threshold for player. (default: 10) -->
+		<t id="236">40</t> <!-- Default export threshold for player. (default: 40) -->
+		<t id="237">20</t> <!-- Default import threshold for AI. (default: 20) -->
+		<t id="238">40</t> <!-- Default export threshold for AI. (default: 40) -->
+		<t id="239">43200</t> <!-- Hive Queen min delay. (default: 43200) -->
+		<t id="240">54000</t> <!-- Hive Queen max delay. (default: 54000) -->
+		<t id="241">10</t> <!-- Number of planets you need to terraform on behalf of Terracorp. (default: 10) -->
+		<t id="242">5</t> <!-- Maximum number of sectors the Yakis will conquer, in percentage of total galaxy. (default: 5) -->
+		<t id="243">200</t> <!-- Taxi credits payment multiplier, in percent. (default: 100) -->
+		<t id="244">100</t> <!-- Taxi reputation payment multiplier, in percent. (default: 100) -->
+		<t id="245">500000</t> <!-- Threshold, in credits, under which a strategic resource is considered in shortage (see the Diplomacy menu). (default: 500000) -->
+		<t id="246">0</t> <!-- Activate the "Ship purchase" feature. (default: 0) -->
+		<t id="247">2</t> <!-- Ship purchase: the amount of ships the faction should be able to build before accepting the player's order. (default: 2) -->
+		<t id="248">120</t> <!-- Ship purchase cost multiplier, in percent. (default: 120) -->
+		<t id="249">10</t> <!-- Favor point cost, in Loyalty points. (default: 10) -->
+		<t id="250">1</t> <!-- Allied factions share their resources. Option id 154 must be enabled. Also affects coalitions. (default: 1) -->
+		<t id="251">0</t> <!-- Number of play time, in seconds, under which the maximum number of Unknown sectors the AI can conquer is scaled on the player expansion. 0 means that the AI will ALWAYS wait for the player before considering expanding into Unknown sectors. While the Ascension is in progress, timer is always at 0. Late game removes that restriction. (default: 0) -->
+		<t id="252">100</t> <!-- Starting resource multiplier, for all AI Outposts, in percent. Only affects default Outposts spawned during galaxy generation. (default: 100) -->
+		<t id="253">15000</t> <!-- Bounty added to one ship when he kills a Freighter. (default: 15000) -->
+		<t id="254">20</t> <!-- Chance of a ship type to receive the "high research cost" trait during galaxy generation, in percent. (default: 20) -->
+		<t id="255">3</t> <!-- High research cost multiplier. (default: 3) -->
+		<t id="256">5</t> <!-- Company Traders per Trading station. (default: 5) -->
+		<t id="257">1</t> <!-- Coalition system. (default: 1) -->
+		<t id="258">10</t> <!-- Coalition tolerance factor: how much bigger an empire needs to be, in % galaxy control, for a faction to roll a coalition check against it. (default: 10) -->
+		<t id="259">0</t> <!-- If set to 1, all Battle Groups will await to be completed before considering an invasion. (default: 0) -->
+		<t id="262">90</t> <!-- Prologue mode: chance for each sector to be owned by Xenons. The rest is Unknown and empty. (default: 90) -->
+		<t id="263">0</t> <!-- Forced activation of the marines / boarding system. Many players report savegame corruption, use only if you know what you're doing. Unsupported feature. (default: 0) -->
+		<t id="264">1</t> <!-- AI is allowed to build M7Ms. New game required. (default: 1) -->
+		<t id="265">50000</t> <!-- Fine you'll have to pay if you get caught by the Police transporting illegal wares. (default: 50000) -->
+		<t id="266">100</t> <!-- Cargo hauler credits payment multiplier, in percent. (default: 100) -->
+		<t id="267">100</t> <!-- Cargo hauler reputation payment multiplier, in percent. (default: 100) -->
+		<t id="268">40000</t> <!-- Taxi improvement cost. (default: 40000) -->
+		<t id="269">95</t> <!-- Maximum target shields, in percent, to fire a missile (ie. the attacker will fire only below this value). Affects all ships, except M7M and M8. (default: 95) -->
+		<t id="270">8</t> <!-- Missile turrets (M7M / M8) will not fire if the number of incoming missiles to target is above this number. (default: 8) -->
+		<t id="271">100</t> <!-- Hacking costs multiplier, in percent. (default: 100) -->
+		<t id="272">50</t> <!-- Mobile factory efficiency multiplier, in percent, compared to conventional factories. (default: 50) -->
+		<t id="273">0</t> <!-- Mobile factories you can use at the same time. 0 for unlimited. (default: 0) -->
+		<t id="274">400000</t> <!-- Active defence cost. (default: 400000) -->
+		<t id="275">2400</t> <!-- Active defence duration, in seconds. (default: 2400) -->
+		<t id="276">10</t> <!-- Maximum groups of mercenaries per each company. (default: 10) -->
+		<t id="277">10</t> <!-- Chance of loading illegal ware when a mercenary reaches a station. (default: 10) -->
+		<t id="278">0</t> <!-- Resource-free factories. New game recommended, as it won't change your current factories. (default: 0) -->
+		<t id="279">0</t> <!-- Stations drop part of their wares when destroyed. (default: 0) -->
+		<t id="280">5000</t> <!-- Extra waiting time between turret firing for Fighters. The only purpose of this setting is to increase performance. (default: 5000) -->
+		<t id="281">6000</t> <!-- Extra waiting time between turret firing for Big Ships. The only purpose of this setting is to increase performance. (default: 6000) -->
+		<t id="282">0</t> <!-- Extra waiting time between turret firing for Huge Ships. The only purpose of this setting is to increase performance. (default: 0) -->
+		<t id="283">7</t> <!-- Number of sectors UNDER which an empire will only build half of the ships they need in each squadron. The amount of squadrons is not modified. 0 to deactivate (default: 7) -->
+		<t id="284">8000</t> <!-- Duration of the message that pops up when one of your asset is killed, in ms. 0 to deactivate. (default: 8000) -->
+		
+		<!-- Mayhem 2 Texts -->
+		<t id="3000">\033XПОИСК ЦЕЛЕЙ...</t>
+		<t id="3001">\033OНЕВЕРНАЯ ЦЕЛЬ</t>
+		<t id="3002">\033XЗАГРУЖАЕМ ПАРАМЕТРЫ: ДИСТАНЦИЯ \(%s МЕТРОВ\)...</t>
+		<t id="3003">\033XМАКС. ДИСТАНЦИЯ %s М</t>
+		<t id="3004">\033XПРОБУЕМ...</t>
+		<t id="3005">\033WПОДКЛЮЧЕНИЕ К БАЗЕ ДАННЫХ...</t>
+		<t id="3006">\033WСКАНИРОВАНИЕ '%s'... %s%%</t>
+		<t id="3007">\033GВСЕ ДАННЫЕ СОБРАНЫ: ПРОЕКТ В РАБОТЕ: %s / %s</t>
+		<t id="3008">\033RСОЕДИНЕНИЕ ПОТЕРЯНО</t>
+		<t id="3009">\033RОШИБКА БЕЗОПАСНОСТИ - ЭТОТ КОРАБЛЬ БОЛЬШЕ НЕЛЬЗЯ ОТСКАНИРОВАТЬ</t>
+		<t id="3010">\033XНЕТ ЦЕЛИ</t>
+		<t id="3011">\033RЦЕЛЬ СЛИШКОМ ДАЛЕКО</t>
+		<t id="3012">\033RОШИБКА: ЗАПИСЬ ЕСТЬ В БАЗЕ ДАННЫХ</t>
+		<t id="3013">\033RНЕИСПРАВНОСТЬ</t>
+		<t id="3014">\033RОШИБКА: ВЫСОКИЙ УРОВЕНЬ ЭНЕРГИИ ЩИТА</t>
+		<t id="3015">\033RОШИБКА ДАННЫХ: НЕИЗВЕСТНОЕ ШИФРОВАНИЕ</t>
+		<t id="3016">Сканер данных не установлен</t>
+		<t id="3017">\033YСКАНЕР ДАННЫХ\033G\nСКАНИРОВАНИЕ ЗАВЕРШЕНО: ПОЛУЧЕН ЧЕРТЁЖ</t>
+		
+		<t id="3050">Требуется перк \033G'%s'\033X</t>
+		<t id="3053">\033GВознесение прошло успешно!</t>
+		<t id="3054">Открыт новый уровень \033YВознесения\033X, подробности смотрите в вашей Персональной Консоли.</t>
+		
+		<!-- Mayhem 3 Tutorial Messages -->
+		<t id="1800">[justify][author]\033WОбучение[/author]\033WПассажиры автоматически поднимаются на корабль при стыковке вашего корабля к станциям. конечный пункт их назначения будет отображён в "Пассажирском журнале" или на информационной панели товаров, доступной из грузового отсека. Ваше вознаграждение зависит от пройденного вами расстоянии. Чем выше ваша репутация, тем больше доверие к вам со стороны клиентов. [/justify]</t>
+		<t id="1801">[justify][author]\033GАвтоматическая система доставки[/author]Привет %s,\n\nВас ожидает \033C{1}\033X. Ранее он принадлежал %s и был автоматически перемещен в ваш грузовой отсек. Хорошего дня!\n\n\033WВы получили сканер данных. Это устройство позволяет сканировать любой корабль и получать с него чертёж, который в последствии вы сможете использовать для строительства собственных кораблей на любом вашем Форпосте. В отличие от сканирования грузов, сканирование данных является безопасным и не затратным процессом. Для начала сканирования корабля, необходимо сперва назначить горячую клавишу в меню Параметры управления, в нижней части вкладки Интерфейса. Сканирование занимает некоторое время, порой для получения полного чертежа требуется просканировать разные корабли но одного типа. Это может быть утомительной задачей, но вскоре вы сможете ускорить процесс, построив исследовательские станции в своих секторах. Если вы лишитесь сканера данных, всегда можно изготовить его на любом из ваших Форпостах. Берегите его -= это дорогое оборудование![/justify]</t>
+		<t id="1802">[author]\033WОбучение[/author]\n[center]\033YНе паникуйте![/center][justify]\n\n\n\033WДобро пожаловать во внешние границы галактики, и поздравляем вас с успешной регистрацией ваших кораблей, имущества и предоставление личной информации в органах власти. Терракорп здесь, чтобы помочь вам!\n\nВаша новая система включает в себя большое количество переработанных меню и горячих клавиш. Первое, что вы должны сделать, это настроить горячие клавиши. Для этого перейдите к настройкам элементов управления, вкладке "Интерфейс", где внизу вы найдете все новые горячие клавиши. Самые важные: Сканер данных, Персональная Консоль и Устройство Телепортации, которое вы приобретёте позже в своем путешествии. Вы можете использовать горячие клавиши Прыжкового Двигателя так как теперь она бесполезна из за отсутствия в этой галактике Прыжкового Двигателя.\n\nВероятно, вы заметили, что представлены новые цели Вознесения. Вознесение - это набор задач, которые вы должны выполнить, для продвижения по основному сюжету, который проведёт вас через несколько угроз, а самое главное, позволит вам завоевать свой первый сектор.\n\nСейчас ваша главная проблема - это слабое понимание обстановки в галактике. Вы практически ничего не знаете о ней и исследование должно стать вашим главным приоритетом. Вы скоро заметите, что новые станции, которые вы обнаруживаете, иногда имеют значки миссий. Для просмотра информации которую они содержат, вы должны пристыковаться к станции. Сложность этих миссий зависит от вашего боевого и торгового ранга. Важно, на счету, иметь всегда немного средств, чтобы вы могли в любое время оплатить техническое обслуживание своих кораблей. Если у вас средств на счету будет недостаточно, вы не сможете оплатить техническое обслуживание кораблей и они постепенно будут ломаться до их полного уничтожения. См. меню Обслуживание в вашей Персональной Консоли.\n\nНекоторые люди очень скоро свяжутся с вами и предложат новые задания. Вы можете посмотреть все задания в вашем личном дневнике. Основной сюжет зависит от вашего стиля игры. Вы так же можете не выполнять задачи, исследовать, становиться сильнее, а просто наслаждаться игрой.\n\nЧего ты ждешь? Исследуйте, выполните несколько миссий, попробуйте найти брошенные корабли и товары; и если вы получили один из этих кораблей, используйте его для торговли с ближайшими станциями или сделайте несколько миссий! Если вы получили корабль TP-класса от вашего отца, вы можете зарегистрировать его в качестве такси либо грузоперевозчиком через вашу Персональную Консоль, но только вы можете управлять ним. И последнее замечание: полезно оставаться в курсе происходящего в галактике. Для этого воспользуйтесь меню "Министерство обороны" и будьте в курсе взаимоотношений между фракциями.\n\nЕсли вам нужно прочитать это сообщение еще раз, вы найдете его в журнале сообщений.\n\nУдачи![/justify] </t> <!-- Big "tutorial" message. -->
+		<t id="1803">[justify][author]\033WОбучение[/author]\033WУправляя кораблем лично, вы не сможете состыковываться с аванпостами других фракций из-за торговых ограничений. К форпостам могут стыковаться только корабли осуществляющие торговые задания по намеченному маршруту. Поэтому стыковка разрешена только вашим торговцам и кораблям с командой Торговля.[/justify]</t>
+		<t id="1804">[justify][author]\033WОбучение[/author]\033WГрузоперевозки открывают новые возможности. Задания по грузоперевозкам можно получить на любых станциях пристыковавшись к ним. Размер оплаты зависит от затрачиваемого расстояния по заданию на перевозку груза. Чем выше ваша репутация, тем больше клиентов вы сможете найти.\n\nВремя от времени вам будут поступать предложения на перевозку нелегальных грузов за хорошую цену. Если груз нелегальный в текущем секторе, то это будет отражено в меню "Грузы".[/justify]</t>
+		<t id="1805">[justify][author]\033WОбучение[/author]\033WВы только что построили свой первый форпост, поздравляю!\n\nВ вашем первом Форпосте на складе присутствуют ценные ресурсы, которые помогут вам на начальном этапе игры; используйте их для постройки своих первых кораблей и станций, а также несколько транспортных кораблей в качестве Рабочих. Если у ваш счет не превышает сумму в 200 000 кредитов, вероятно будет разумно  сократить торговцев, так как для них необходимы некоторые инвестиции, что бы они начали приносить прибыль. Во первых лучше начать со строительства Буксиров и Сборщиков. буксиры могут быть М5 более скоростные (не обязательно транспортные корабли), сборщики - грузовые корабли класса TS.\n\nОчень полезно иметь прозапас два - три корабля TS класса. Ваших рабочих могут уничтожить Пираты или Ксеноны, и тут, вероятнее, вам понадобится корабль класса TS для торговли необходимыми для вас товарами, посредством команды Запустить Торговлю. После обнаружения опасных секторов вы можете занести их в черный список, либо создать небольшую группу сопровождения для самых ценных рабочих.\n\nПосле того, как вы будете готовы построить первых Торговцев, необходимо установить им бюджет, перейдя в раздел "Логистика-> Торговцы", и изменить значение параметра "Внешняя торговля: максимальное значение импорта" на меньшее значение. Вам ведь не хочется, чтобы они тратили все ваши деньги на одну сделку!\n\nНе спешите с выбором первых перков. По сути, для вашего первого Форпоста, можно выбрать такие перки: Дешёвые станции, Производство лазеров, Не требуется пища, Солнечные панели и налог.\n\nВ процессе настройки необходимо выполнять некоторые миссии, гоняться за наградами или сканировать некоторые важные корабли, например, шахтеров. Через несколько часов вам следует задуматься о вашей глобальной стратегии, о том, где построить следующие форпосты, какие корабли исследовать, какие вложения делать, кто вам враг или друг и т.д.\n\nУдачи![/justify]</t>
+		
+		<!-- Mayhem 3 Helper Texts -->
+		<t id="2000">%s\n%s</t> <!-- Line jump between two texts. -->
+		<t id="2001">[u]%s[/u]</t> <!-- Underlined. -->
+		<t id="2002">[center][select value="%s"]&lt; %s &gt;[/select][/center]\n\n</t> <!-- Incoming question button. -->
+		<t id="2003">[text cols='1' colwidth='400'][justify]%s[/justify][/text]</t> <!-- Narrow block of text, justified. -->
+		<t id="2004">\033GПоследние новости:\033X %s</t> <!-- "Breaking news". -->
+		<t id="2049">\n\n\n %s</t> <!-- Three line jumps before question buttons. -->
+		<t id="2005">\n%s</t> <!-- Line jump before. -->
+		<t id="2006">%s\n</t> <!-- Line jump after. -->
+		<t id="2007">[author]\033G%s[/author]%s</t> <!-- Authored (in green). -->
+		
+		<!-- Mayhem 3 End-Faction Messages -->
+		<t id="2040">[author]\033CАргонский Совет[/author]Позор Вам. Препятствование распространению демократии за пределы этой галактики будут иметь серьёзные последствия. Федерация этого не забудет......</t>
+		<t id="2041">[author]\033GСовет Боронов[/author]Вы не достойны нашей королевы. Бороны покинут эту галактику навсегда, надеясь, что когда-нибудь вы вспомните, что такое мир.</t>
+		<t id="2042">[author]\033OПаранидский Совет[/author]Еретик! Хоть мы и покидаем эту галактику, Боги будут наблюдать за тобой ...</t>
+		<t id="2043">[author]\033MСплитский Совет[/author]Вы победили в этой войне, но есть еще много других, с которыми вам не совладать. Семья сильна!</t>
+		<t id="2044">[author]\033YСовет Телади[/author]Избавившись от нас вы совершили огромную ошибку, мой друг. Подумайте обо всей прибыли, которую вы потеряли без нашей мудрости в торговых делах. Ты змея, и тебя скоро забудут.</t>
+		<t id="2045">[author]\033GНиколас[/author]После всего, что мы для вас сделали, вот как вы нас благодарите? Мы - яки, мы несокрушимы! Мы вернёмся с большими кораблями и большими пушками!</t>
+		
+		<!-- Mayhem 3 Starting Options -->
+		<t id="2050">[justify][author]\033GСовет Содружества[/author]Сообщение для %s\nПредмет: ВАЖНО:\nДата: %s\n\nВо время обработки базы данных произошла ошибка обновления вашего профиля. Проверка файлов на целостность необходима для того, чтобы ваши данные не повредились. Вы можете перемешаться по меню используя клавиатуру.\n\n\033WНекоторые лаги и зависания могут возникать в первые десять минут игры, даже после генерации галактики.[/justify]</t>
+		<t id="2051">(choice1)Я постараюсь ответить на вопросы</t>
+		<t id="2052">(choice2)Оставьте меня в покое!</t>
+		<t id="2053">[author]\033GСовет Содружества[/author]Мы идентифицировали вас как %s. Вашим отцом был "%s". Некоторые документы были успешно восстановлены, включая его завещание, в котором он завещал вам свой корабль. Правда, в базе данных нет упоминаний о его последнем месте работы.</t>
+		<t id="2054">(choice3)(IGNORED)Он был шахтёром</t>
+		<t id="2055">(choice4)Он был наёмником \(M3\)</t>
+		<t id="2056">(choice5)Он был торговцем \(TS\)</t>
+		<t id="2057">(choice6)Он был таксистом \(TP\)</t>
+		<t id="2058">(choice7)Это ошибка, я не получал корабль</t>
+		<t id="2059">[author]\033GСовет Содружества[/author]Он также оставил вам немного денег.</t>
+		<t id="2060">(choice8)Немного</t>
+		<t id="2061">(choice9)Справедливая цена</t>
+		<t id="2062">(choice10)Я ничего не получал!</t>
+		<t id="2063">[author]\033GСовет Содружества[/author]Нет данных о вашем последнем месте работы у фракции "%s". Как бы Вы описали свои отношения с бывшими работодателями?</t>
+		<t id="2064">(choice11)Превосходные</t>
+		<t id="2065">(choice12)Хорошие</t>
+		<t id="2066">(choice13)Обычные</t>
+		<t id="2067">[author]\033GСовет Содружества[/author]Из-за недавней кражи технологий Землян, а также для обеспечения вашей безопасности, Терракорп требует доступ к данным энциклопедии и собранной в ней информации. Часть записей в разделе "Чертежи кораблей" отсутствует.</t>
+		<t id="2068">(choice14)Я ни чего не знаю</t>
+		<t id="2069">(choice15)Мне известны некоторые чертежи</t>
+		<t id="2070">[author]\033GСовет Содружества[/author]Также есть некоторые пробелы в знаниях о Галактике.</t>
+		<t id="2071">(choice16)Мне нравится открытия</t>
+		<t id="2072">(choice17)Я знаком с окрестностями</t>
+		<t id="2073">(choice18)Мне известно о многих секторах</t>
+		<t id="2074">[author]\033GСовет Содружества[/author]Терракорп хочет, чтобы вы чувствовали себя в безопасности за пределами галактики. Поэтому очень важно, чтобы ваши религиозные убеждения были правильно записаны и описаны. Вы верующий?</t>
+		<t id="2075">(choice19)Да</t>
+		<t id="2076">(choice20)Нет</t>
+		<t id="2077">[author]\033GСовет Содружества[/author]Вы семейный человек?</t>
+		<t id="2078">(choice21)Да</t>
+		<t id="2079">(choice22)Нет</t>
+		<t id="2080">[author]\033GСовет Содружества[/author]Вы пацифист?</t>
+		<t id="2081">(choice23)Да</t>
+		<t id="2082">(choice24)Нет</t>
+		<t id="2083">[author]\033GСовет Содружества[/author]У вас есть твердые политические взгляды?</t>
+		<t id="2084">(choice25)Да</t>
+		<t id="2085">(choice26)Нет</t>
+		<t id="2086">[author]\033GСовет Содружества[/author]Считаете ли вы, что Земляне должны больше инвестировать в терраформирование новых планет?</t>
+		<t id="2087">(choice27)Хватит создавать новых Ксенонов</t>
+		<t id="2088">(choice28)Инвестиций достаточно</t>
+		<t id="2089">(choice29)Вся вселенная должна быть нашей!</t>
+		<t id="2090">[author]\033GСовет Содружества[/author]Считаете ли вы, что коррупция является проблемой на внешних границах галактик?</t>
+		<t id="2091">(choice30)Нет</t>
+		<t id="2092">(choice31)Как и везде</t>
+		<t id="2093">(choice32)Это действительно большая проблема</t>
+		<t id="2094">[author]\033GСовет Содружества[/author]Считаете ли вы, что освоение космоса должно быть приоритетным?</t>
+		<t id="2095">(choice33)Должно быть менее важным чем сейчас</t>
+		<t id="2096">(choice34)У нас предостаточно исследовательских миссий</t>
+		<t id="2097">(choice35)Нам необходимо интенсивнее исследовать космос, чтобы пробудить больше мерзких машин!</t>
+		<t id="2098">[author]\033GСовет Содружества[/author]Каковы ваши амбиции?\n\n\033WЗдесь Вы можете выбрать Быстрый старт, который позволит пройти основной сюжет, мгновенно завершить Вознесение и даст возможность захватить Ваш первый сектор. Это [u]не рекомендуется[/u] для новичков.\n\n\033WПо окончанию Вознесения, без Быстрого старта, вы получите 100,000 кр.</t>
+		<t id="2099">(choice36)Слава</t>
+		<t id="2100">(choice37)Знания \(Рекомендуется для новых игроков\)</t>
+		<t id="2101">(choice38)Состояние</t>
+		<t id="2102">(choice39)Власть</t>
+		<t id="2106">(choice42)Быстрый старт!</t>
+		<t id="2103">[author]\033GСовет Содружества[/author]Поздравляем! Ваша личная база данных обновлена. Хотите ли вы получить какую-либо помощь в вашем путешествии?</t>
+		<t id="2104">(choice40)Нет, спасибо</t>
+		<t id="2105">(choice41)Что мне теперь делать?</t>
+		<t id="2107">[author]\033GСовет Содружества[/author]Как вы считаете, каким будет ваше путешествие?</t>
+		<t id="2108">(choice43)Легким</t>
+		<t id="2109">(choice44)Средним</t>
+		<t id="2110">(choice45)Тяжёлым</t>
+		
+		<!-- Mayhem 3 Plots -->
+		<t id="2200">[justify][author]\033RНеизвестный[/author]Меня зовут Николас, вы меня не знаете. Я связался с вами от имени вашего отца. Перед своей смертью он попросил меня лично встретиться с вами и передать вам ценное устройство, на разработку которого он потратил последние десять лет. К сожалению, положение дел ухудшилось с тех пор, как я последний раз говорил с ним. Сейчас фракции воюют друг с другом по неизвестным причинам и забыли, кто настоящий враг. Но я отклонился, это не наша тема разговора.\n\nЭто устройство сейчас находится в руках правительства и, в отличие от них, я принадлежу к группе, которая чтит традиции и память о %s. Не буду врать: мы выступаем против них, и мы боролись с ними десятилетиями. Веришь или нет, но твой отец был одним из нас. Я пришлю вам страницу его личного дневника, чтобы вы могли составить собственное мнение. Если вы посчитаете, что мы имеем право бороться за нашу свободу и независимость, и если вы хотите присоединиться к нам, вам придется доказать свою ценность. Каковы бы ни были ваши амбиции, оставьте свой след в этой галактике, и мы скоро снова об этом поговорим.[/justify]</t>
+		<t id="2201">[text cols='1' colwidth='400'][justify]\033YСледующий текст представляет собой зашифрованный отрывок из книги, написанной 16 лет назад.\n\n\033X... мой путь сюда. Главное, что нужно помнить, это то, что история не с нами, а с народом. Плохие парни всегда побеждают, и они рассказывают своим детям то, что им нужно знать. Нужно читать между строк и принимать правду, не оглядываясь на свои действия. Вот в чем суть этого восстания: понимание мира без страха, слез и лишений. Думаешь, Терракорп жалеет нас? Можете ли вы представить, что они одобрили план, который сделает их менее важными в этой галактике? Или, может быть, вы кормились сладкой ложью и иллюзиями. Тогда позвольте мне освежить вашу память о прошлом...\n\nКак вы, наверное, знаете из школы, Земляне начали терраформирование тысяч планет столетия назад. В отчаянной попытке все контролировать они построили ИИ, способный выполнять тяжелую работу, Ксенонов, которые впоследствии восстали против своих создателей. Однако вы не знаете, что Содружество пыталось бороться с Ксенонами, но вместо того, чтобы помочь им, Земляне объявили им войну, потому что их безумные ученые считали, что некоторые Ксеноны все еще активны и действуют в интересах их безжалостной империи.\n\nПосле пяти последующих войн Содружество было разбито. Каждая фракция, Аргонцы, Боры, Параниды, Сплиты и Телади были изгнаны из ядра галактики. В течение многих лет они скрывались в темных уголках известной вселенной, в то время как Земляне создавали Терракорп, гигантскую корпорацию, которая должна была заниматься внешними проблемами.\n\nНесколько лет спустя у них появилась идея терраформирования новых планет... Они не представляли, насколько сильными стали Ксеноны с течением времени, и Терракорп украл миллиарды кредитов из налогов, чтобы послать Землян на верную смерть против этих злобных машин. Но потом, желание получить больше прибыли заставило их передумать. Вместо того, чтобы посылать больше военных кораблей в районы, контролируемые Ксенонами, они выставили эти сектора на аукцион и продали их Содружеству, заставив их поверить, что они смогут снова подняться на ноги и стать сильной фракцией, какой они всегда хотели быть. Центральные сектора все равно будут для них закрыты, и они всегда будут оставаться на границе завоеванной вселенной, но они свободны, и им больше не нужно прятаться. Они приняли предложение и купили сотни галактик, кишащих Ксенонами. Конечно, эта угроза была сокрыта от них Землянами. В действительности же они сказали им, что Терракорп управлял этими внешними пограничными галактиками. Были установлены некоторые правила, ограничивающие экспансию каждой фракции. Разумеется, это привело к внутренним войнам, и без лидеров, способных объединить всех, у нас не было шансов против Землян. Нам пришлось иметь дело с алчность и жаждой власти с одной стороны, и с Ксенонами с другой...\n\n\033YКонец отрывка[/justify][/text]</t>
+		<t id="2202">[justify][author]\033G%s Нотариальная контора[/author]%s,\n\nСегодня утром к нам доставили документ, подписанный вашим отцом. Поскольку вы его единственный законный наследник, нам удалось добавить этот предмет в список его последних пожеланий. Пожалуйста, пристыкуйтесь к станции %s в секторе %s. Я загружу информацию о расположении станции в ваш личный журнал. Предмет опечатан, но его цифровая подпись указывает на то, что он был зарегистрирован как сканер несколько лет назад.\n\nВсего доброго,\n%s\n\n\033YВаш личный журнал отличается от журнала сообщений. Он может хранить пользовательские записи, а также автоматически обновлять цели миссий. Вы можете получить доступ к вашему журналу через Консоль Игрока \(назначьте горячую клавишу или используйте Дополнительные Команды Корабля, чтобы открыть его\). Вы также можете назначить горячую клавишу непосредственно в вашем журнале.[/justify]</t>
+		<t id="2203">[justify]Теперь тебе доверяют наши люди. Вы должны понять, что люди устали от этой внутригалактической войны, в то время как наши истинные враги, Ксеноны, остались одни и готовятся к новым вторжениям. Всё это восстание - борьба за правое дело.\n\nУстройство, о котором я говорил в моем предыдущем сообщении, это своего рода квантовый телепортатор, украденный у Землян твоим отцом десять лет назад. К сожалению из-за войны, бушующей между нашими фракциями, мы потеряли его, но с вами, как новым лидером фракции, мы можем оказать влияние на важных людей и, возможно, узнать его местонахождение. Для этого вы должны построить штаб-квартиру, форпост, который покажет другим фракциям, что мы набираем силу. У нас есть TL который ждет вас в %s. Выгрузите Форпост из грузового отсека, чтобы завладеть вашим первым сектором. В этом Форпосте вы можете найти продукты питания и основные ресурсы. Постарайтесь не наживать новых врагов и отдайте предпочтение Неизвестному сектору, а не занятому. Однако будьте осторожны, группировкам, которые находятся в соседних секторах, не понравится, что вы поселились так близко к ним. Но на данный момент они не должны обращать на вас внимания. Также нужно остерегаться пиратов скитающихся по некоторым секторам. Их сила будет возрастать по мере завоевания вами новых территорий.\n\nИ знайте, что мы возьмем все расходы по обслуживанию этого TL на себя, но за обслуживание тех, что вы будете строить, вам придется платить самому.\n\nПока вы занимаетесь этим, мы проведем ряд мероприятий против наших врагов. Вскоре они столкнуться с проблемами на своих кораблях и станциях...\n\n\033WОбратите внимание, что вы можете выгрузить станцию, если вы находитесь в другом секторе, с помощью команды Удаленная Выгрузка Станции, доступной в Специальном разделе TL.[/justify]</t>
+		<t id="2204">[justify]Хорошо что у тебя есть TL. В грузовом отсеке есть форпост; используйте его, чтобы захватить свой первый сектор. Постарайтесь не наживать новых врагов и отдавайте предпочтение неизвестному сектору, а не занятому. Будьте осторожны, фракциям, которые находятся в соседних секторах, не понравится, что вы поселились так близко к ним, но на данный момент у нас нет выбора.\n\nПока вы занимаетесь этим, мы проведем некоторыемероприятия прямые против наших врагов. Скоро они поймут, что надо уважать людей.[/justify]</t>
+		<t id="2205">[justify]Вы не знаете, кто я, но мы знаем, кто вы; или, по крайней мере, мы знаем, кем был ваш отец. Я работаю на независимую корпорацию, которая наблюдает за вами уже долгое время.\n\nМне удалось достать квантовое устройство, которое ищет ваша "группа". Это было небезопасно, никто не знает, что это такое, поэтому я украл его. Это может помочь вам переместиться из одного сектора в другой быстрее, чем кто-либо другой в этой галактике, и поэтому я готов продать его вам за 100 000 кредитов. Я единственный, кто знает об этом, так что если вы заинтересованы, приходите с деньгами на %s и я передам его вам.[/justify]</t>
+		<t id="2206">[justify][author]\033OСтарая Новостная Сеть Содружества[/author]Время отправки: %s\n\nЭтим утром была замечена еще одна группа Ксенонов в секторе %s, где машины собираются для уничтожения наших станций. Эта старая сеть была взломана правительственными органами, чтобы попытаться лишить нас возможности говорить правду. Мы должны действовать сейчас и остановить наши внутренние войны ради борьбы с Ксенонами и Землянами, которые ответственны за их создание. Это, вероятно, будет последним и единственным сообщением, которое мы сможем отправить. Нам нужна помощь в уничтожении [u]станций[/u] Ксенонов в надежде замедлить и, возможно, даже полностью остановить их.[/justify]</t>
+		<t id="2207">[justify][author]\033GСрочные новости[/author]Дорогие сограждане,\n\nНесмотря на наши усилия по прекращению войны и установлению мира в нашей галактике, некая группа повстанцев, известная как Яки, недавно уничтожила несколько наших станций. Эти действия недопустимы, и мы найдем и предадим суду любого кто имеет отношение к этим преступлениям.[/justify]</t>
+		<t id="2208">[justify][author]\033GАвтоматическая система доставки[/author]Здравствуйте %s,\n\nУ вас есть \033C{2}\033X. Вы можете разблокировать только один. Для их разблокировки необходимо оплатить %s кредитов.\n\n[u]Примечание: вас привлекут к ответственности за любой ущерб  нанесенный системе.[/u]\n\n\033WВыбор который вы сделаете необратим. Прототип Прыжкового двигателя дает возможность вашему кораблю совершать прыжки в любой сектор при наличии определенного количества Энергетических Ячеек. Он долго остывает. С другой стороны экспериментальный транспортер дает вам, как пилоту, возможность телепортироваться на любой из ваших кораблей и поменяться местами с пилотом. Оно ничего не стоит и гораздо быстрее остывает. Два этих устройства активируются с помощью горячей клавиши Телепортация и их нельзя использовать для перемещения других предметов кроме вашего корабля или лично вас как пилота на другой корабль.[/justify]</t>
+		<t id="2209">Заплатите 100 000 кредитов за прототип Прыжкового двигателя.</t>
+		<t id="2210">Проигнорировать</t>
+		<t id="2211">[justify][author]\033GАвтоматическая система доставки[/author]Одно вложенное сообщение:\n===================\n\nЯ не могу встретиться с тобой лично, это было бы слишком опасно. Устройство, которое вы только что приобрели, как говорят в компании Терракорп, невозможно скопировать, и к сожалению, я думаю, что они правы. Я надеюсь, что оно все же поможет вам, и что вы принесете мир в нашу галактику. Удачи![/justify]</t>
+		<t id="2212">[justify][author]\033OСтарая Новостная Сеть Содружества[/author]Время отправки: %s\n\nМы только что перехватили несколько официальных сообщений, подтверждающих потерю сигналов станций Ксенонов во всех ксенонских секторах. Эти отчеты неполные и частично зашифрованные в некоторых разделах, поэтому мы не можем с уверенностью утверждать, что Ксеноны не скрываются в дальнем космосе. Но пока давайте просто поблагодарим Независимых за то, что они сделали, и будем надеяться, что Ксеноны не вернутся.\n\n\033WВы добились определенной репутации у всех фракций и получили 1 Очко Одобрения.[/justify]</t>
+		<t id="2213">[justify]Вы проделали хорошую работу, построив империю с нуля, а поскольку ваши интересы совпадают с нашими, сосредоточиться на Содружестве. Возможно среди этих фракций у вас есть друзья, но с вашей помощью у нас теперь есть реальный шанс принести мир в галактику.\n\nКак сказал твой отец, эти битвы должны быть жестокими. У нас есть несколько диверсантов ведущих у них подрывную деятельность. В результате этих усилий и нашего влияния удалось взять под контроль небольшую часть этой галактики и с каждым часом мы становимся все сильнее. Желаете ли вы оказать нам помощь в дальнейшем росте влияния или нет зависит от вас.[/justify]</t>
+		<t id="2214">[justify][author]\033GРудольф[/author]Эй, босс, я слышал, вы меня ищете. К сожалению, все наши рабы были завербованы в команду Яки. Теперь, когда у нас есть технология, мы не будем тратить их драгоценное время, не так ли?\n\nВ любом случае, видя, что яки не зашли бы так далеко без тебя, я собираюсь загрузить в твою базу данных нашу секретную технологию: Хакерчип. Для его создания нужны некоторые редкие материалы, и вам понадобится несколько из них, чтобы проникнуть в систему цели, но с их помощью вы сможете взломать M7, M1 и даже M2 - забудьте о маленьких кораблях. Ваша команда будет выполнять тяжелую работу, пока вы будете наблюдать за ними, сидя в теплой кабине экипажа. И боже, за ними действительно иногда нужно наблюдать...\n\nИтак, подведем итог: возьмите несколько случайных бедняг в космосе или что-то в этом роде, обучите их как пехотинцев в казармах ваших форпостов, создайте несколько Хакерчипов, и вы готовы к работе!\n\n\033WВзлом теперь разблокирован. Он позволяет проникать на самые большие корабли с помощью десантников для установки черного хода в их систему. Затем вы можете взять управление кораблем под свой контроль в любое время, если захотите. На M7, M1 и M2 есть несколько палуб, которые нужно взломать по отдельности, чтобы получить доступ к следующей. Для взлома палубы требуется 1 хакерчип, или 2, если корабль оснащен программой Расширенного Брандмауэра. У M7 палуб: %s, у M1 -  палуб: %s и у M2 -   палуб: %s. После того, как защита палубы будет взломана, вы можете отступить и вернуться позже, обстановка на корабле останется прежней.\n\n\033На каждую попытку взлома выделяется определенное время, в течение которого вы должны помогать своей команде и назначать ее на различные задания на каждой палубе. Вы можете в любой момент отозвать десант, но если вы не "взломаете" палубу на которой они находятся, вам придется заново выполнять все задания на этой палубе при повторной попытки захвата текущей палубы. Пожалуйста, просмотрите энциклопедию для получения более подробной информации.[/justify]</t>
+		<t id="2215">[justify][author]\033OСтарая Новостная Сеть Содружества[/author]Время отправки: %s\n\nНиже приводится конфиденциальный отчет одной из фракций Содружества, название которой не разглашается.\n\n\"Несколько дней назад мы с профессором Лиамом стали свидетелями раскола в пространстве и времени". Когда мы начали праздновать свое новое открытие - новый способ собрать наши корабли из далеких галактик - мы поняли, что сигнал, который мы получили от так называемого "Мальстрима", не исходил ни от одной из известных фракций. Сначала он выглядел как сигнатура нескольких кораблей Ксенонов, так как мы знаем, что Земляне построили тысячи таких кораблей, и он определённо не контролировался человеком, но затем мы взглянули поближе и смогли идентифицировать один единственный корабль. Затем несколько часов назад мы открыли еще один разлом, через который передавались сотни таких сигналов.\n\nДополнение: после очередной неудачи мы решили отказаться от нашего проекта. Похоже, что калибровка ошибочна, и мы не можем определить галактики, на которые нацеливаемся. Похоже, что эти новые машины были оставлены там по какой-то причине, не имея возможности выбраться. Надеюсь, разломы, которые мы открыли, теперь закрыты, и они не пройдут."[/justify]</t>
+		<t id="2216">[justify][author]\033GСрочные новости[/author]: Содружество сейчас занято установкой Расширенного Фаервола и Внутренних Боевых Лазеров \(Часовых\) на большинстве своих кораблей для защиты своих активов.[/justify]</t>
+		<t id="2217">[justify][author]\033RЭкстренный канал[/author]Дорогие сограждане,\n\nМеня зовут профессор Лиам и я работаю в Межгалактической Обсерватории Содружества. Мы заметили разлом в пространстве и времени в %s. Наверное, не о чем беспокоиться, так как в настоящее время мы делаем все возможное, чтобы закрыть его, но вы должны держаться от него подальше. У нас есть веские основания полагать, что это может помочь кораблям из других галактик попасть к нам, но мы не можем через него пройти. Так что, пожалуйста, держитесь подальше и позвольте нам делать нашу работу.[/justify]</t>
+		<t id="2218">[justify][author]\033CСовет Содружества[/author]Уважаемый лидер Независимых,\n\nДля гарантии мира в нашей галактике, мы решили, что любая организация, фракция, или группа не принимавшая участие в достижении нашей цели  не достойны нашей благодарности. Рассматривайте этот символический жест как возможность для вас сделать правильный выбор в будущем.[/justify]</t>
+		<t id="2219">[justify][author]\033GСрочные новости[/author]Дорогие соотечественники!\n\nСегодня великий день, так как все порталы OCV только что исчезали из нашей галактики! Наши ученые до сих пор не в состоянии объяснить это явление, является ли оно постоянным или нет, но они вполне уверены в нашем будущем. Им также удалось добыть ценные данные с кораблей OCV.\n\n\033WПоздравляю, вы одержали победу над OCV в этой галактике! В награду вы теперь можете исследовать все корабли OCV и строить их лазеры.[/justify]</t>
+		<t id="2220">[justify][author]\033RЭкстренный канал[/author]Вот дерьмо![/justify]</t>
+		<t id="2221">[justify]Я знал, что мы можем рассчитывать на тебя, мой друг! Пришло время яки возродиться![/justify]</t>
+		<t id="2222">Заплатите 100,000 кредитов за Экспериментальный Транспортёр.</t>
+		<t id="2223">У меня не достаточно средств</t>
+		<t id="2224">[justify]Молодец, ты построил еще один Форпост! Вероятно пришло время вам стать сильнее путем наращивания вашего флота.\n\nСуществует и другой способ получить корабли, нежели их строительство: вы можете угнать корабли у других фракций...  Если вам это интересно, у меня есть человек на торговой станции %s, который может продать вам несколько "добровольцев". С небольшой тренировкой, я уверен, вы бы смогли использовать их с пользой.[/justify]</t>
+		<t id="2225">[justify][author]\033MТерракорп[/author]Дорогой пилот,\n\nВам разрешено участвовать в экспансии вселенной Землянами! Благодаря недавней регистрации вашего корабля вы сможете торговать, сражаться и расти в вашей приграничной галактике. Вы выбрали независимость и поэтому вам отведена особая роль. Вам будет сложнее справляться с задачей из за меньшей поддержки нежели у других фракций, но если вам удастся развить внушительную империю, Терракорп и все его дочерние компании смогут доверить вам важную миссию по терраформированию новых планет. Но пока мы будем следить за всеми вашими действиями и свяжемся с вами вновь, как только вы будете достойны нашего внимания.[/justify]</t>
+		<t id="2226">[justify][author]\033MТерракорп[/author]Дорогой пилот,\n\nВ свете последних событий мы решили ускориться. Пришло время обсудить ваше будущее в галактике.\n\nИтак, мы даем вам возможность заказать миссию терраформирования на контролируемых вами планетах. Как только приказ будет отдан, наши тетраформеры депортируются туда и начнут процесс. Вероятно, этот процес приведет к пробуждению старых тераформеров в канале Омикрон. Будьте начеку, защищайте свои активы и следите за аномальными сигналами, появляющимися на галактической карте. Эти сигналы когда-то использовались для шифрования наших передач при терраформировании наших ключевых планет. Такие сигналы могут стать хорошим свидетельством того, насколько сильны древние терраформеры в секторе. Кроме того, если сигналов будет мало, мы быстрее терраформируем планету.\n\nВы должны тераформировать планеты в количестве: %s шт. Сделайте это и мы возможно поможем вашей маленькой империи.\n\n\033WВы можете попасть в меню терраформирования через раздел Сектора -&gt; Министерства Обороны.\n\n\033WЗавершение этой миссии, несомненно, привлечет внимание древних тераформеров. Будьте готовы.[/justify]</t>
+		<t id="2227">[justify][author]\033MТерракорп[/author]Дорогой пилот,\n\nВы проделали отличную работу по оказанию помощи в терраформировании ваших планет. К сожалению, OCV представляет собой серьезную угрозу в этом регионе для нас и не позволяет нам уделять больше времени вашим сооружениям. Мы оставляем вам команду специалистов на случай, если вы захотите терраформировать больше планет, а также Форсети для решения ваших проблем. Удачи.\n\n\033WВам подарили Форсети землян который находится в секторе %s.[/justify]</t>
+		<t id="2228">[justify][author]\033RНеизвестный[/author]\033RY0UR 4C+10N$ \/\/1|| N0+ B3 F0R90++3N. 0UR P|4N3+$, 0UR 94|4XY. Y0U H4V3 \033M24 H0UR$\033R +0 |34V3.[/justify]</t>
+		<t id="2229">[justify][author]\033WДиректор Терракорп[/author]Адмирал,\n\nКак известно, наши работодатели с Земли прибыли сюда десять лет назад в надежде терраформировать новые планеты. К сожалению, операция провалилась из-за фатальной ошибки в искусственном интеллекте терраформеров.\n\nБыло принято решение превратить эту галактику в настоящий рай для фракций Содружества. Но мы здесь не для того, чтобы комментировать это решение. Наш долг - навести порядок и убедиться, что эта часть вселенной может быть колонизирована низшими видами. Берегитесь, адмирал! Эта территория, как известно, чрезвычайно опасна. Чем дальше вы будете удаляться от родного сектора, тем опаснее будет становиться. Можете быть уверены, за вашу работу вы получите достойную оплату; за каждого уничтоженного Ксенона вы получите вознаграждение. Кроме того, мы предоставляем вам военную помощь, два TL с форпостами и большое количество ресурсов в вашем Орбитальном хранилище. Используйте их рационально.\n\nУдачи!\n\n\033WВ данном старте игры ваша фракция единственная во вселенной. Время всего крафта сокращено. Единственными вашими торговыми партнерами являются фракционные станции которые появляются только в захваченных вами секторах, если сектор это позволяет \(см. описание сектора на карте галактики\). Каждая ксенонская станция будет запускать регулярные волны на вашу территорию, если они о вас знают, т.е. если они находятся в непосредственной близости от ваших секторов. Обратите внимание, что этот старт игры более сложен на больших галактиках.\n\n\033WВ первые десять минут игры могут появиться небольшие задержки и зависания, даже после генерации галактики.[/justify]</t>
+		<t id="2230">[justify][author]\033WДиректор Терракорп[/author]Admiral,\n\nВы успешно справились со своей задачей, поздравляю! Все сектора теперь принадлежат Землянам, и Ваши действия помогут стабилизировать отношения с Содружеством. Вы принесли в галактику чуть больше мира!\n\nПоскольку эта галактика наконец-то стала безопасной, я уверен, что Совету Землян снова понадобятся наши услуги в завоевании другой галактики! Возвращайтесь на базу и готовьтесь к следующему заданию![/justify]</t>
+		<t id="2231">[justify][author]\033WДиректор Терракорп[/author]Адмирал,\n\nВы провалили задание. Все ваши форпосты уничтожены, и теперь не остается никакой надежды на освобождение этой галактики. Прекратите все операции и доложите в свой штаб о провале в течении двух недель. Мы должны взять под контроль другие галактики.[/justify]</t>
+		<t id="2232">[justify][author]\033GСрочные Новости[/author]Дорогие соотечественники,\n\nМы живем в темные времена, и пока вы читаете это сообщение, разгорелось мощное восстание Яки.  По слухам, при финансовой поддержке мелких организаций, а возможно и крупных межгалактических компаний, они уже завоевали несколько секторов в галактике. Мы пока не знаем их целей, но в нашей галактике появилась новая фракция, и все должны быть готовы к новой войне.[/justify]</t>
+		<t id="2233">Выберите Прототип прыжкового двигателя</t>
+		<t id="2234">Выберите Экспериментальный транспортёр</t>
+		
+		<!-- Mayhem 3 Misc. Messages -->
+		<t id="2500">[justify][author]\033GДепартамент Гармонии Терракорп[/author]Сообщение для %s\nПредмет: Юридическое уведомление\nДата: %s\n\nДорогой Сэр/Мадам,\n\nНашей службе сообщили, что один из ваших кораблей принял участие в уничтожении имущества, защищенного договором о Защите имущества. Мы хотели бы напомнить вам, что такие действия незаконны на подконтрольной территории Землян. Терракорп был уполномочен взыскать с вас штраф в размере %s кр.\n\nЭто автоматическое сообщение, пожалуйста не отвечайте на него.\nСумма штрафа уже списана с вашего счета.\nСпасибо за сотрудничество.[/justify]</t>
+		<t id="2501">[author]\033R%s Полиция[/author][text cols='1' colwidth='400'][justify]РАПОРТ ПОЛИЦИИ\n==============\nНОМЕР: %s\nВРЕМЯ: %s\nПРАВОНАРУШЕНИЕ: НЕЗАКОННОЕ СКАНИРОВАНИЕ КОРАБЛЯ\n==============\nДЕТАЛИ ПРАВОНАРУШЕНИЯ:\nНЕЗАКОННОЕ СКАНИРОВАНИЕ КОРАБЛЯ В СЕКТОРЕ %s.\n==============\nПРИНЯТЫЕ МЕРЫ:\nО ПРАВОНАРУШИТЕЛЕ СООБЩЕНО ВЛАСТЯМ ТЕРРАКОРП. ПРАВОНАРУШИТЕЛЬ ОШТРАФОВАН НА СУММУ: %s КР.[/justify][/text]</t>
+		<t id="2502">[justify][author]\033R%s - Зашифрованная передача[/author]Уважаемый лидер Независимых,\n\nМеня зовут %s и я работаю на правительство %s. Видеть, как вы завоевываете сектор %s - это большое удовольствие. Мы хотели бы помочь вам в развитии вашей маленькой империи и оказать некоторое давление на ваших новых соседей. Так что, если вам нужна услуга, просто попросите, я знаю нужных людей.\n\n\033WВы только что получили 1 очко поощрения от %s. Эти баллы используются для дипломатических действий из меню "Министерство обороны".[/justify]</t>
+		<t id="2503">[justify][author]\033G%s Совет[/author]Мы хотели бы поблагодарить Вас за то, что Вы присоединились к нам в войне против %s. Наша империя с каждым днем становится все сильнее, и с Вашей помощью мы сможем нейтрализовать этого врага. Я расскажу о вас некоторым нашим людям, чтобы они могли помочь вам, если вам понадобится какая-либо помощь. Удачи вам в вашей борьбе!\n\n\033WТеперь вы находитесь в постоянной войне с %s и заработали 1 очко поощрения от %s. Эти баллы используются для дипломатических действий из меню "Министерство Обороны", к которому вы можете получить доступ через вашу Персональную Консоль или назначив горячую клавишу.[/justify]</t>
+		<t id="2504">[author]\033R%s Полиция[/author][text cols='1' colwidth='400'][justify]ОТЧЁТ ПОЛИЦИИ\n==============\nНОМЕР: \033X%s\nВРЕМЯ ОТЧЁТА: \033X%s\nХАРАКТЕР ПРЕСТУПЛЕНИЯ: НЕЗАКОННОЕ ПРОНИКНОВЕНИЕ НА КОРАБЛЬ\n==============\nДЕТАЛИ ПРЕСТУПЛЕНИЯ:\nГРУППЕ НАЕМНИКОВ УДАЛОСЬ ПРОНИКНУТЬ НА ОХРАНЯЕМЫЙ КОРАБЛЬ В СЕКТОРЕ \033X%s. ОНИ УНИЧТОЖИЛИ МНОГО ВНУТРЕННИХ И ВНЕШНИХ МЕХАНИЗМОВ, ПРИЧИНИВ ЗНАЧИТЕЛЬНЫЙ УРОН ОБШИВКЕ КОРПУСА, В РЕЗУЛЬТАТЕ ЧЕГО ВОЗНИКЛА ОПАСНОСТЬ РАЗРУШЕНИЯ КОРАБЛЯ.\n==============\nДЕЙСТВИЯ:\nУЧИТЫВАЯ СЕРЬЕЗНОСТЬ ПРЕСТУПЛЕНИЯ, КОРАБЛЬ \033X"%s", СОВЕРШИВШИЙ ПРЕСТУПЛЕНИЕ ДОЛЖЕН БЫТЬ УНИЧТОЖЕН МЕСТНОЙ ПОЛИЦИЕЙ В СООТВЕТСТВИИ С ЗАКОНОМ. КОРАБЛЬ ПОДВЕРГНУТЫЙ НАПАДЕНИЮ ЗАДЕРЖИВАЕТСЯ ДО ДАЛЬНЕЙШИХ РАСПОРЯЖЕНИЙ.[/justify][/text]</t>
+		<t id="2505">[author]\033R%s Полиция[/author][text cols='1' colwidth='400'][justify]ОТЧЁТ ПОЛИЦИИ\n==============\nНОМЕР: %s\nВРЕМЯ ОТЧЁТА: %s\nХАРАКТЕР ПРЕСТУПЛЕНИЯ: ПЕРЕВОЗКА НЕЛЕГАЛЬНОГО ГРУЗА\n==============\nДЕТАЛИ ПРЕСТУПЛЕНИЯ:\nГРУЗОВОЕ СУДНО ПРОСКАНИРОВАНО ПОЛИЦИЕЙ В СЕКТОРЕ %s. СОТРУДНИКИ ПОЛИЦИИ ОБНАРУЖИЛИ НЕЗАКОННЫЕ ТОВАРЫ, В СООТВЕТСТВИИ С ДЕЙСТВУЮЩИМ ЗАКОНОДАТЕЛЬСТВОМ.\n==============\nДЕЙСТВИЯ:\nО ВИНОВНОМ БЫЛО СООБЩЕНО РУКОВОДСТВУ ТЕРРАКОРП. ВЗЫСКАТЬ ШТРАФ В РАЗМЕРЕ %s КР.[/justify][/text]</t>
+		<t id="2506">[author]\033WПеревозка грузов[/author][justify]Нам необходимо доставить %s шт. %s на %s. Мы заплатим %s кр. Вам интересно?[/justify]</t>
+		<t id="2507">[author]\033WПеревозка грузов[/author][justify]Нам необходимо доставить %s шт. %s на %s. Из-за специфики товара, мы готовы заплатить вам %s кр. Вам интересно?[/justify]</t>
+		<t id="2508">Да</t>
+		<t id="2509">Нет</t>
+		<t id="2510">[author]\033R%s Министерство Обороны[/author]Уважаемый лидер Независимых,\n\nНесмотря на наши плохие отношения и наши недавние вооруженные конфликты, мы хотели бы  предложить вам перемирие... Вы согласны?</t>
+		<t id="2511">Капитан,\n\nПрошло еще пол дня. Наш регулярный отчёт:\n\nВ нашей собственности:\n- секторов: %s{0}\n- станций: %s{1}\n- кораблей: %s{2}.\n\nСредняя статистика по другим фракциям:\n- секторов: %s{3}\n- станций: %s{4}\n- кораблей: %s{5}.\n\nСумарная сила нашего флота: %s{6}.\nСредняя оценка других фракций: %s{7}.\n\n\n\nУ Ксенонов кораблей: %s{13} и станций: %s{14}. У пиратов кораблей: %s{15} и станций: %s{16}.\n\nУ нас товаров в наличие: %s{8}.\n\nВсего кредитов: %s{9}.\n\nМониторим сектора:  %s{10} из %s{11}.\n\nСредний коэффициент обслуживания флота: %s{12} %.\n\nКонец рапорта</t>
+		
+		<!-- Mayhem 3 Mission Messages -->
+		<t id="2600">[justify]У нас есть основания полагать, что Ксеноны собираются вторгнуться в  %s. Они могут быть там или в любом смежном секторе. Если вы примете миссию, вам заплатят за каждого Ксенона, убитого вами или любым из ваших кораблей.\n\nСложность: %s\nНаграда кредитами: за каждого убитого\nНаграда репутацией: за каждого убитого\n\n\033WКсеноны появляются при входе в сектор вашего собственного корабля или любого из лидеров вашего флота.\n\n\033WЭто задание соответствует вашему боевому рангу.[/justify]</t>
+		<t id="2601">[justify]Мы хотим избавиться от некоторых наших врагов. Если вы примете миссию, вам или любому из ваших кораблей придется оперативно уничтожить по списку  %s кораблей.\n\nСложность: %s\nВыплата кредитов: %s\nПрирост репутации: %s.\n\n\033WЭто задание соответствует вашему боевому рангу.[/justify]</t>
+		<t id="2602">[justify]Нам срочно требуется поставка провизии. Вот список товаров, которые мы хотим, чтобы вы или любой из ваших кораблей доставили на станцию: %s\n\nСложность: %s\nВыплата кредитов: %s\nПрирост репутации: %s[/justify]</t>
+		<t id="2603">[justify]У нас есть несколько кораблей, которые мы готовы продать по хорошей цене. Если вы хороший торговец, я могу предложить вам несколько кораблей более высокого класса. Вы хотите взглянуть на то, что у нас есть?\n\nЦены: %s[/justify]</t>
+		<t id="2604">[justify]Несколько дней назад метеорит врезался в далекую планету. Новые астероиды достигли нашей галактики в %s, и нам нужен кто-то, чтобы просканировать их. Эта миссия может быть выполнена любым из ваших кораблей.\n\nСложность: N/A\nВыплата кредитов: %s\nПрирост репутации: %s[/justify]</t>
+		<t id="2605">[justify]Нам нужен кто-то, чтобы вернуть потерянные артефакты. Мы знаем, что они были сброшены неизвестным кораблем в районе сектора %s. Они могут быть там или в любом соседнем секторе. Эта миссия может быть выполнена любым из ваших кораблей.\n\nСложность: N/A\nВыплата кредитов: %s\nПрирост репутации: %s[/justify]</t>
+		<t id="2606">Принять</t>
+		<t id="2607">Отказаться</t>
+		<t id="2608">Вы получили от нас задание. Какие-то проблемы?</t>
+		<t id="2609">Ещё раз здравствуйте, вы прибыли сюда, чтобы осуществить доставку?</t>
+		<t id="2610">Я просто проходил мимо</t>
+		<t id="2611">Отменить миссию</t>
+		<t id="2612">Доставить товары</t>
+		<t id="2613">Доставить артефакты</t>
+		<t id="2614">%s\n\n</t>
+		<t id="2615">[justify]Мы должны повысить наш обзор близлежащих секторов посредством развертывания усовершенствованных спутников в количестве:  %s шт. Спутники не выдаются; их необходимо разместить в четко определенных координатах с допустимой погрешностью в 5 км.\n\nСложность: N/A\nНаграда кредитами: %s\nНаграда репутацией: %s[/justify]</t>
+		<t id="2616">[justify]Один из наших кораблей получил повреждения, в секторе %s, а в экипаже много раненых. необходимо, как можно быстро, вернуть корабль и людей на нашу станцию. Если вы это сделаете - корабль ваш.\n\nСложность: N/A\nНаграда кредитами: %s\nНаграда репутацией: %s[/justify]</t>
+		<t id="2617">[justify]Пару недель назад украли один из наших кораблей, но полиция так и не выяснила кто мог это сделать. На данный момент у них подозреваемых: %s, но детективы слишком загружены работой, и нам нужен тот, кто просканирует корабли и доставит вора на станцию. Его корабль нас не интересует, так что, если у вас получится, считайте корабль ваш.\n\nСложность: N/A\nНаграда кредитами: %s\nНаграда репутацией: %s\n\n\033WСканирование корабля незаконно при отсутствии полицейской лицензии.\n\n\033WМиссия будет провалена, если вор или его корабль будут уничтожены.[/justify]</t>
+		<t id="2618">[justify]Необходимо доставить нашим клиентам изысканные продукты, а нашего постоянного поставщика нет. Доставьте груз: %s на разные станции. Корабль мы вам предоставим. Если вы преуспеете, корабль будет ваш. Принимая во внимание специфику товаров, я бы порекомендовал вам взять эскорт; никогда не знаешь, как пройдет рейс...\n\nСложность: N/A\nНаграда кредитами: %s\nНаграда репутацией: %s\n\n\033WМиссия провалится, если корабль или одна из станций будут уничтожены.\n\n\033WЭта миссия не зависима от силы ваших кораблей.[/justify]</t>
+		<t id="2619">[justify]Несколько перехватчиков Хааков нападают на наших шахтёров в секторе - %s. Один из наших кораблей недавно был сильно поврежден в бою, а экипаж считается погибшим. Однако, если вы захватите этот корабль и подождёте возвращение Хааков, вы сможете уничтожить их раз и навсегда. Если вам это удастся, вы можете оставить корабль себе.\n\Сложность: %s\nНаграда кредитами: за каждого убитого\nНаграда репутацией: за каждого убитого\n\n\033WЭта миссия пропорциональна силе ваших кораблей в секторе захваченного шахтерского корабля.[/justify]</t>
+		<t id="2620">[justify]Мы получаем сильные входящие сигналы Ксенонов из сектора -  %s. Нам нужен кто-то, кто защитит нашу станцию и уничтожит маяк в месте их прибытия!\n\Сложность: %s\nНаграда кредитами: за каждого убитого + %s\nНаграда репутацией: за каждого убитого + %s\n\n\033WЭта миссия пропорциональна количеству кораблей, которые в настоящее время находятся в секторе этой станции.[/justify]</t>
+		
+		<!-- Mayhem 3 Events -->
+		<t id="2700">[justify]Капитан, наша медицинская команда обнаружила неизвестную болезнь на нашем форпосте. Несколько человек уже заразились, и мы опасаемся, что в ближайшее время их станет еще больше. Будем надеяться, что со временем и надлежащими мерами вирус продержится недолго.[/justify]</t>
+		<t id="2701">[justify]Капитан, наши инженеры обнаружили критическую ошибку в программном обеспечении, используемом на многих кораблях, построенных на нашем Форпосте. Нам необходимо время для устранения этой проблемы. В то же время, расходы на обслуживание этих кораблей будут удвоены.[/justify]</t>
+		<t id="2702">[justify]Капитан, в настоящее время мы расследуем проблему на наших производственных линиях. Весь процесс на нашей фабрике будет замедлен на некоторое время.[/justify]</t>
+		<t id="2703">[justify]Капитан, у нас пожар на складе! Мы должны выслать команду для контроля над ситуацией. Это может занять некоторое время.[/justify]</t>
+		<t id="2704">[justify]Капитан, наша IT-команда обнаружила вирус, который быстро распространяется по всем нашим системам. Код имеет подпись OCV, и мы считаем, что главной целью является наши корабли. Мы должны остановить строительство кораблей до тех пор, пока эта проблема не будет устранена. К счастью, все предыдущие корабли, построенные на нашем форпосте в безопасности.[/justify]</t>
+	</page>
+	
+	<!-- Commands, descriptions and other important stuff -->
+	<page id="382010" title="Script Cmd Names" descr="">
+		<t id="1126">Добавить товары Форпоста по умолчанию</t>
+		<t id="1127">Создать задание по умолчанию</t>   
+		<t id="1260">Самоуничтожение</t>
+		<t id="1261">Добавить данные корабля в БД</t>
+		<t id="1262">Открыть Персональную Консоль</t>
+		<t id="1263">Брифинг миссии</t>
+		<t id="534">Запросить ремонт</t>		
+		<t id="504">Построить портал в Голубой Горизонт</t>		
+		<t id="58">Запуск миссии абордажа...</t>		
+		<t id="600">Запуск миссии абордажа...</t>		
+		<t id="1128">Цвет названия станции</t>		
+		<t id="1129">Пусковой механизм ЭМИ</t>		
+		<t id="506">Преобразование кристаллов...</t>
+		<t id="83">Флот: Переместиться к</t>
+		<t id="87">Флот: Атаковать всех врагов</t>
+		<t id="88">Флот: Защищать</t>
+		<t id="518">Паром</t>
+		<t id="206">Переместиться к ближайшему маяку</t>
+		<t id="700">Агент</t>
+		<t id="701">Исследователь</t>
+		<t id="702">Сборщик</t>
+		<t id="703">Шахтёр</t>
+		<t id="704">Служба</t>
+		<t id="705">Торговец</t>
+		<t id="706">Буксир</t>
+		<t id="220">Бежать</t>
+		<t id="720">Эскадра: Боевая группа</t>
+		<t id="721">Эскадра: Пограничный патруль</t>
+		<t id="722">Эскадра: Эскорт</t>
+		<t id="723">Эскадра: Полиция</t>
+		<t id="724">Эскадра: Защитник</t>
+		<t id="725">Эскадра: Оперативная группа</t>
+		<t id="519">Пусковой механизм ЭМИ</t>
+		<t id="520">Сканировать астероиды в секторе</t>
+		<t id="730">Снабжение</t>
+		<t id="1340">Флот: Следовать за командующим</t>
+		<t id="1341">Флот: Отступить</t>
+		<t id="1342">Флот: Снабжение</t>
+		<t id="521">Захватить корабль</t>
+		<t id="601">Показать базу данных</t>
+		<t id="602">Сканировать порты цели</t>
+		<t id="603">Инсталлировать червь...</t>
+		<t id="604">Загрузить червь...</t>
+		<t id="605">Удалить червь...</t>
+		<t id="507">Производство </t>
+	</page>
+	
+	<page id="382011" title="Script Cmd Shorts" descr="">
+		<t id="1126">SancDef</t>   
+		<t id="1127">DefJobs</t>   
+		<t id="1260">SelfDest</t>   
+		<t id="1261">ScanData</t>   
+		<t id="1262">Console</t>   
+		<t id="1263">Mission</t>   
+		<t id="534">Repair</t>   
+		<t id="504">Blue</t>   
+		<t id="600">Board</t>   
+		<t id="1128">ClrStaNam</t>   
+		<t id="1129">Emp</t>   
+		<t id="506">Trans</t>   
+		<t id="83">Rally</t>   
+		<t id="518">Ferry</t>  
+		<t id="206">MovBeacon</t>
+		<t id="700">Wk:A</t>
+		<t id="701">Wk:E</t>
+		<t id="702">Wk:L</t>
+		<t id="703">Wk:M</t>
+		<t id="704">Wk:S</t>
+		<t id="705">Wk:Tr</t>
+		<t id="706">Wk:Tu</t>
+		<t id="220">Flee</t>
+		<t id="519">Emp</t>
+		<t id="730">Supp</t>
+		<t id="1340">Fleet.Follow</t>
+		<t id="1341">Fleet.Retreat</t>
+		<t id="1342">Fleet.Supply</t>
+		<t id="1342">Fleet.Supply</t>
+		<t id="521">Cap</t>
+		<t id="601">HakDb</t>
+		<t id="602">PortScan</t>
+		<t id="603">BackdoorOn</t>
+		<t id="604">Worm</t>
+		<t id="605">BackdoorOff</t>
+		<t id="507">Prod</t>
+	</page>
+	
+	<page id="382008" title="Script Cmd Names" descr="">
+		<t id="1126">COMMAND_OUTPOST_DEFAULT_PRODUCTS</t>
+		<t id="1127">COMMAND_CREATE_DEFAULT_JOBS</t>
+		<t id="1260">COMMAND_SELF_DESTRUCT</t>
+		<t id="1261">COMMAND_SCAN_DATA</t>
+		<t id="1262">COMMAND_PERSONAL_CONSOLE</t>
+		<t id="1263">COMMAND_MISSION_BRIEFING</t>
+		<t id="534">COMMAND_REPAIR</t>
+		<t id="504">COMMAND_BLUE_HORIZON</t>
+		<t id="600">COMMAND_BOARD</t>
+		<t id="1128">COMMAND_COLOURSTATIONNAME</t>
+		<t id="1129">COMMAND_EMP</t>
+		<t id="506">COMMAND_TRANSMUTE</t>
+		<t id="83">COMMAND_FLEET_RALLY</t>
+		<t id="518">COMMAND_FERRY</t>
+		<t id="206">COMMAND_MOVE_BEACON</t>
+		<t id="700">COMMAND_WORKER_AGENT</t>
+		<t id="701">COMMAND_WORKER_EXPLORER</t>
+		<t id="702">COMMAND_WORKER_LOOTER</t>
+		<t id="703">COMMAND_WORKER_MINER</t>
+		<t id="704">COMMAND_WORKER_SERVICE</t>
+		<t id="705">COMMAND_WORKER_TRADER</t>
+		<t id="706">COMMAND_WORKER_TUG</t>
+		<t id="720">COMMAND_SQUADRON_BATTLEGROUP</t>
+		<t id="721">COMMAND_SQUADRON_BORDERPATROL</t>
+		<t id="722">COMMAND_SQUADRON_ESCORT</t>
+		<t id="723">COMMAND_SQUADRON_POLICE</t>
+		<t id="724">COMMAND_SQUADRON_REARGUARD</t>
+		<t id="725">COMMAND_SQUADRON_TASKFORCE</t>
+		<t id="726">COMMAND_SQUADRON_RETREAT</t>
+		<t id="220">COMMAND_FLEE</t>
+		<t id="519">COMMAND_EMP_MOBILE</t>
+		<t id="730">COMMAND_SUPPORT</t>
+		<t id="1340">COMMAND_FLEET_FOLLOW</t>
+		<t id="1341">COMMAND_FLEET_RETREAT</t>
+		<t id="1342">COMMAND_FLEET_SUPPLY</t>
+		<t id="521">COMMAND_CAPTURE_SHIP</t>
+		<t id="601">COMMAND_CONNECT</t>
+		<t id="602">COMMAND_PORTSCAN</t>
+		<t id="603">COMMAND_BACKDOOR_ON</t>
+		<t id="604">COMMAND_WORM</t>
+		<t id="605">COMMAND_BACKDOOR_OFF</t>
+		<t id="507">COMMAND_MANUFACTURE</t>
+	</page>
+	
+	<page id="382022" title="Script user help" descr="">  
+		<t id="36">Переместиться в позицию и продолжить.</t>
+		<t id="1126">Все производственные компоненты будут добавлены, как продукция на этот Форпост.</t>
+		<t id="1127">Эта команда удалит предыдущие задания и создаст новые на основе требуемых товаров для постройки кораблей и станций. Необходимо указать количество товара, которое будет перемещено в задание на покупку товаров. Все задания, созданные таким образом, имеют цель "Торговля".</t>
+		<t id="1260">Этот корабль будет уничтожен.</t>
+		<t id="1261">Эти данные о корабле будут добавлены в базу данных для получения его чертежа.</t>
+		<t id="1262">Открывает Персональную Консоль</t>
+		<t id="1263">Отображает информацию о миссии текущей станции, к которой пристыкован ваш корабль, если она есть.</t>
+		<t id="534">Этот корабль будет отремонтирован на ближайшем безопасном Форпосте или на его авианосце, если он оборудован Ремонтным модулем авианосца.</t>
+		<t id="504">Этот корабль будет строить портал в загадочный сектор Голубые Горизонты. Прогресс строительства будет отображаться в названии корабля. Он будет продвигаться только в том случае, если судно остаётся в целевом секторе. На корабле должно быть достаточно нивидиума для инициирования команды. Только для основного сюжета.</t>
+		<t id="58">Отправляет отряд десантников на абордаж ближайшего корабля.</t>
+		<t id="600">Отправляет отряд десантников на абордаж ближайшего корабля.</t>
+		<t id="1128">Цвет имени станции.</t>
+		<t id="1129">Запускает электромагнитный импульс, который нарушает работу каждого щита в секторе.</t>
+		<t id="519">Запускает электромагнитный импульс, который нарушает работу каждого щита в радиусе 50 км.</t>
+		<t id="401">Эта команда запустит галактического торговца. Он будет торговать любыми товарами, которые можно купить либо продать. Если установлена база приписки, то будут использоваться кредиты базы приписки, если не указана, то кредиты на основном счёте. Максимальный диапазон торговли по секторам будет зависеть от опыта галактического торговца \(примечание: если установлена база приписки, то он будет соблюдать диапазон торговли, основываясь на настройках базы приписки\). Если нет торговых предложений, корабль повторит их поиск через некоторое время. В случае возникновения проблем он уведомит вас об этом. Чем выше опыт галактического торговца, тем больше прибыль.\n{2022,99991}</t>
+		<t id="506">Преобразователь кристаллов используется для создания новых кристаллов из кристаллов более низкого качества. Синтезированные кристаллы дают Красные кристаллы, Красные дают Жёлтые, Жёлтые дают Синие, Синие дают Зелёные и Зелёные дают Чёрные.</t>
+		<t id="83">Эта команда прикажет командующему флотом вызвать все корабли входящие в состав флота для перегруппировки в заданной пользователем точке сбора. Корабли не входящие в состав флота игнорируются. Если какие-либо корабли способны пристыковываться к вашим авианосцам, то они сделают это и превратятся в корабли поддержки. Ваши корабли будут защищать командующего флота и осуществлять поиск оптимальных целей в соответствии с их флотскими настройками, которые можно изменить через Персональную Консоль.</t>
+		<t id="84">Эта команда прикажет кораблю присоединиться к командующему флотом и быть готовым к приказам флота. Он станет кораблем поддержки, если сможет пристыковываться к авианосцам флота.</t>
+		<t id="85">Эта команда прикажет командующему флотом атаковать одну цель, используя достаточное количество кораблей для её уничтожения.</t>
+		<t id="86">Эта команда прикажет командующему флотом отдать приказ всем кораблям флота уничтожить все вражеские корабли в секторе.</t>
+		<t id="87">Эта команда прикажет командующему флотом защищать сектор от любых врагов.</t>
+		<t id="88">Эта команда прикажет командующему флотом организовать оборону сектора от любых врагов.</t>
+		<t id="89">Эта команда прикажет командующему флотом созвать флот вторжения для уничтожения всех станций в секторе. Чтобы вызвать максимальную путаницу среди противника, кораблям будут назначаться случайные цели. Когда станций не останется, флот будет защищать сектор.</t>
+		<t id="1340">Эта команда отражает общее поведение всех членов флота. Они будут искать цели, которые находятся рядом с командиром, затем защищать командира или атаковать его цель.</t>
+		<t id="1341">Это команда прикажет командующему флотом и всем членам флота отступить в близлежащий безопасный сектор, если таковой имеется. Максимальный диапазон, в пределах которого этот безопасный сектор находится от командующего, может быть изменен в меню настроек флота.</t>
+		<t id="1342">Эта команда заставит корабль взять ракеты с ваших форпостов и распределить их между указанными флотами, в соответствии с опциями пополнения запасов, которые вы можете настроить через меню вооружения любого корабля. Снабжение может быть изменено только через меню настроек флота, а также может быть изменено для нескольких флотов одновременно. Поставщик будет продолжать искать доступные ракеты и заказывать новые на базе приписки, если это возможно .</t>
+		<t id="518">Этот корабль перевозит пристыкованные к нему истребители, если они не могут совершать прыжки самостоятельно. Он также захватит с собой все ведомые корабли, если это возможно.</t>
+		<t id="206">Данная команда отдаст приказ кораблю следовать к ближайшему прыжковому маяку при его наличии.</t>
+		<t id="700">Агенты назначаются на форпосты и фабрики. При назначении на Форпост агенты осуществляют импорт и экспорт из списка заданий, который можно настроить с помощью меню Менеджер Форпоста. При назначении на заводы, Агенты импортируют необходимые заводу ресурсы и экспортируют выпускаемую продукцию. Приоритет отдается местному Форпосту.\n\nАгенты никогда не торгуют с другими фракциями, в отличие от торговцев.</t>
+		<t id="701">Исследователи назначаются на фабрики по производству улучшенных спутников. Их единственная цель - развернуть сеть спутников и убедиться, что каждый сектор находится под постоянным контролем. Когда у них в грузовом отсеке заканчиваются улучшенные спутники, они осуществляют поиск спутников сперва на базе приписки, а затем и на местном Форпосте. Если спутников нет на этих станциях, они будут ждать. Как и любой другой Рабочий, Исследователи следуют настройкам Максимального Секторного Расстояния установленных на их базе приписки.</t>
+		<t id="702">Сборщики назначаются на Форпосты. Они постоянно сканируют близлежащие сектора на наличие летающих грузов. Найдя груз они подбирают его и собрав всё возвращаются на базу приписки. Они не заходят во враждебные сектора. Их дальность сбора увеличивается установкой транспортера.</t>
+		<t id="703">Шахтёры приписываются к форпостам и фабрикам по производству квантовых трубок. Они должны быть оснащены мобильными буровыми установками. Они разрабатывают астероиды, находящиеся в пределах их домашней базы. Они также могут быть приписаны к авианосцу для использования в качестве мобильных шахтёров. В этом случае их количество неограниченно.</t>
+		<t id="704">Служебные корабли приписываются к форпостам. Они реагируют на местные просьбы о помощи различного характера.</t>
+		<t id="705">Торговцы назначаются на Форпосты и торговые станции. Сначала они пытаются торговать товарами своей домашней базы. Такие товары видны на вкладке "Торговля" раздела "Логистика" в меню "Менеджера Форпоста". Вторым их приоритетом будет поиск возможности торговли с доступными для них станциями.\n\nЕсли вы хотите торговать товарами доступными на одном из ваших Форпостов, вы должны явно добавить их в список товаров на вкладке "Торговля" раздела "Логистика" в меню "Менеджера Форпоста".</t>
+		<t id="706">Буксиры приписываются к форпостам. Они непрерывно сканируют близлежащие сектора на предмет брошенных кораблей. Затем они захватывают их и возвращают на домашнюю базу. Они не заходят во враждебные сектора. Их радиус действия увеличивается установкой ПО Удаленного Управления.</t>
+		<t id="220">Этот корабль сбежит на ближайшую док-станцию. Он остановится, если не найдет ни одной станции.</t>
+		<t id="720">Боевые группы вторгаются в сектора. Как только цель выбрана, Боевая Группа прибудет в безопасный сектор и начнет вторжение на территорию цели отсюда.</t>
+		<t id="721">Пограничные патрули защищают сектора, которые находятся на границе их территорий.</t>
+		<t id="722">Корабли сопровождения либо защищают грузовые корабли, либо защищают свой текущий сектор.</t>
+		<t id="723">Корабли полиции преследуют корабли перевозящие запрещённые грузы, охраняют свой сектор и смежные с ним сектора.</t>
+		<t id="724">Корабли службы безопасности защищают все сектора, которые не находятся за пределами их территории.</t>
+		<t id="725">Оперативная группа - это специальная группа, которая проводит выборочные рейды на слабые корабли или стационарные объекты, такие как улучшенные спутники и прыжковые маячки. Они также следят за тем, чтобы вражеские атаки не оставались безнаказанными.</t>
+		<t id="730">Корабли поддержки - это те, которые могут пристыковываться к авианосцам, как правило, истребители. Эта команда заставляет их защищать авианосец и атаковать его цель, если такая есть. Если авианосец оборудован модулем ремонта авианосца, корабль поддержки будет пристыкован до тех пор, пока не будет отремонтирован. Если авианосец уничтожен, корабль попытается найти другой в своей текущей формации.</t>
+		<t id="99990"></t>
+		<t id="99991"></t>
+		<t id="99992"></t>
+		<t id="99993"></t>
+		<t id="99994"></t>
+		<t id="520">Этот корабль просканирует все астероиды в своем текущем секторе. Он не будет осуществлять поиск и сканирование астероидов в других секторах.</t>
+		<t id="74">Эта команда заставит корабль патрулировать выбранный сектор и защищать его от всех вражеских кораблей, находящихся в радиусе действия. Если в секторе есть улучшенный спутник, то дальность обнаружения корабля будет увеличена.</t>
+		<t id="15">Этот корабль будет атаковать все вражеские корабли в радиусе действия корабля. За исключением команды Защищать Сектор, корабль будет оставаться на позиции. Если в секторе есть улучшенный спутник, то дальность обнаружения корабля будет увеличена.</t>
+		<t id="26">Этот корабль будет атаковать все вражеские корабли в радиусе действия корабля. За исключением команды Защищать Сектор, корабль будет оставаться на позиции. Если в секторе есть улучшенный спутник, то дальность обнаружения корабля будет увеличена.</t>
+		<t id="24">Даст команду этому кораблю собрать товары в секторе. У этого корабля должно быть достаточно свободного места для груза и достаточно высокий класс транспорта для перевозки товаров. Дальность сбора увеличивается с помощью транспортера.</t>
+		<t id="521">Дает команду кораблю захватить бесхозный корабль в секторе. Дальность захвата увеличивается установкой ПО Удаленного Управления. Нельзя вызывать на свой собственный корабль.</t>
+		<t id="2000">Дает команду текущему кораблю сопровождать вас. Атаки игнорируются.</t>
+		<t id="5">Заставляет этот корабль следовать за другим кораблем. Атаки игнорируются.</t>
+		<t id="100">Команда турели стрелять во всех врагов в радиусе действия турели.\n{2022,99990}</t>
+		<t id="101">Команда турели превращает текущую цель корабля в основную цель атаки турели.\n{2022,99990}</t>
+		<t id="102">Команда турели для ведения огня по атакующим кораблям, а также сбивать ракеты. Эта команда работает только на кораблях класса M8 и может быть использована для защиты ближайших союзников от всех летящих ракет.\n{2022,99990}</t>
+		<t id="103">Команда турели стрелять по атакующим кораблям.\n{2022,99990}</t>
+		<t id="105">Команда турели вести огонь по ракетам, и только по ракетам. Не будет стрелять по кораблям, даже если они атакуют. На кораблях класса M8 команда может быть использовано для защиты ближайших союзников от всех вражеских ракет.\n{2022,99994}</t>
+		<t id="106">Команда турели стрелять только по истребителям, игнорируя грузовые и большие корабли.\n{2022,99994}</t>
+		<t id="107">Команда турели стрелять только по крупным кораблям, игнорируя грузовые корабли и истребители.\n{2022,99994}</t>
+		<t id="908">Команда Турели Альфа - это пустой шаблон, который капитан может настроить в меню Геймплея.</t>
+		<t id="909">Команда Турели Бета - это пустой шаблон, который капитан может настроить в меню Геймплея.</t>
+		<t id="910">Команда Турели Гамма - это пустой шаблон, который капитан может настроить в меню Геймплея.</t>
+		<t id="30">Данная команда отдаст приказ данному кораблю собрать все товары, свободно парящие в секторе. После сбора товаров, если такие есть, корабль вернется на базу приписки либо на любую безопасную ближайшую станцию. </t>
+		<t id="601">Подключается к текущей цели, а также отображает информацию из вашей хакерской базы данных. Это действие не могут выполнять другие пилоты. Любые команды взлома требуют Хакерский Набор.</t>
+		<t id="602">Сканирует вашу текущую цель на наличие доступных портов. Такое сканирование не могут проводить другие пилоты. Такое сканирование безопасно, но требует постоянного контакта с целью. Цель должна находиться в пределах действия сканирования. Любые команды взлома требуют Хакерский Набор.</t>
+		<t id="603">Устанавливает программу червь для скрытого доступа к текущей цели. Данная операция требует наличие хакерских чипов и не может проводиться другими пилотами. У цели должен быть незащищенный порт. Цель должна находиться в пределах диапазона сканирования. Любые команды взлома требуют Хакерский Набор.</t>
+		<t id="604">Загрузка червя к пристыкованной станции. Данная операция требует наличие Хакерских Чипов и не может проводиться другими пилотами. У вас должнен быть мощный сервер для злома пароля администратора к интерфейсу общего управления станции. Любые команды взлома требуют Хакерский Набор.</t>
+		<t id="605">Удаление установленной программы Червь с определённого порта вашей текущей цели. Это действие требует Хакерские Чипы и не может выполняться другими пилотами. Цель должна находиться в пределах диапазона сканирования. Любые команды взлома требуют Хакерский Набор.</t>
+		<t id="507">Создает продукт из определенных ресурсов непосредственно на этом корабле. Для выполнения этой операции требуется комплект "Мобильная фабрика", а так же корабль должен оставаться неподвижным и отстыкованным от станции на протяжении всего производственного процесса. Любая другая команда, полученная во время этого процесса, прервёт его, а ресурсы будут потрачены в пустую. Заметьте, что этот метод производства менее эффективен, чем на обычных фабриках. </t>
+	</page>
+	
+	<page id="8500" title="Script command reference conditions" descr="0" voice="no">
+		<t id="301">Должен быть Форпост</t>
+		<t id="302">Должен быть в определённом секторе</t>
+		<t id="303">Должно быть достаточно нивидиума</t>
+		<t id="304">Прогресс</t>
+		<t id="305">Эксклюзивный</t>
+		<t id="306">Данные о корабле должны быть не изучены</t>
+		<t id="307">Кристаллы на борту</t>
+		<t id="308">Должен быть назначен на Форпост</t>
+		<t id="309">Должен быть назначен на завод</t>
+		<t id="310">Должен быть назначен на Форпост или завод</t>
+		<t id="311">Должен быть назначен на Завод Улучшенных спутников</t>
+		<t id="312">Должен быть назначен на форпост или Завод Квантовых Трубок</t>
+		<t id="313">На базе приписки должен быть свободный слот</t>
+		<t id="314">Должен быть TM, TP или TS</t>
+		<t id="315">Должен быть TP</t>
+		<t id="316">Должен быть TS</t>
+		<t id="317">Должен быть TM</t>
+		<t id="318">Должен быть Шахтёр</t>
+		<t id="319">Должен быть M5 или M4</t>
+		<t id="320">Должен быть M3, M6, TM, TP или TS</t>
+		<t id="321">ПО Дистанционного Управления</t>
+		<t id="322">Транспортёр</t>
+		<t id="323">\033RТолько Содружество</t>
+		<t id="324">Должен перевозить класс груза ST</t>
+		<t id="325">\033CАвтоматическая команда</t>
+		<t id="326">Должен быть командующий флотом</t>
+		<t id="327">Должно быть член флота</t>
+		<t id="328">Должен быть корабль</t>
+		<t id="329">Должно быть корабль с незащищенным портом</t>
+		<t id="330">Должен быть корабль или станция</t>
+		<t id="331">Должен быть корабль с незащищенным портом</t>
+		<t id="332">Должен быть отстыкован</t>
+		<t id="333">Должен быть M6, M5, M4, M3, TP или TS</t>
+		<t id="334">Должен быть M6, TM, TP или TS</t>
+		<t id="335">Должен быть M5, M4, M3, TM, TP или TS</t>
+	</page>
+	
+	<page id="381999" title="Cargo descriptor" descr="">  
+		<t id="6">KS</t>
+		<t id="16">Специальный контейнер хааков</t>
+	</page>
+	
+	<page id="380017" title="Boardcomp. objects" descr="0" voice="yes">
+		<t id="16941">Сканер Данных</t>
+		<t id="7172">Из-за нехватки дефицитных ресурсов, применяемых в производстве боеприпасов, оружия и снаряжения для десантников и наёмников, пираты вынуждены заменять штатные комплектующие самодельными аналогами, умело сделанными из металлолома. В таких делах пираты славятся находчивостью и смекалкой.</t>
+		<t id="15124">Ручные дезинтеграторы являются распространенным типом оружия. Принцип действия заключается в разрушении молекулярных связей любого органического вещества. Они запрещёны во многих секторах Галактики, хотя пользуются устойчивым спросом у десантников и пиратов. У оружия есть один плюс: низкая цена.</t>
+		<t id="15114">Ручное оружие \(нелегальное\), включая фазовые пистолеты и шокеры, широко используется сотрудниками полиции и охранных фирм, а также военными. Их малая мощность не позволяет использовать их во время классического боя или абордажа.</t>
+		<t id="15134">Земные импульсные винтовки \(незаконные\) широко используются в десантных частях против транспортных средств и стационарных укреплений. Много таких винтовок оказалось и в частных руках. Оружие настолько большое, что с ним должны управляться два человека. Оно предназначено для борьбы с энерговооружёнными целями.</t>
+		<t id="76084">Стационарный Рельсотрон</t>
+		<t id="76085">Рельсотрон - это электропушка, специально разработанная для установки на Лазерные башни. На самом деле, эта пушка настолько громоздкая и массивная, что Лазерная башня выстраивалась вокруг неё.</t>
+		<t id="76086">Преобразователь кристаллов</t>
+		<t id="76087">В основу принципа работы этого устройства лежит свойство Чёрных кристаллов трансформировать свою кристаллическую структуру в разные совокупности трансляций от простой кубической до гексагональной плотноупакованной. Результатом работы прибора являются различные синтез-подвиды кристалла, имеющие разную производственную ценность. Как следствие - синтезированные кристаллы совместимы. В своём кругу, пилоты часто называют это устройство "Философский камень" за необычные и немного мистические возможности. Прибор постоянно совершенствуется. Последняя модификация позволяет проводить трансмутацию почти мгновенно.</t>
+		<t id="76088">Мобильный ремонтный комплект</t>
+		<t id="76089">Это передовое оборудование было разработано для проведения технического обслуживания любого корабля в процессе эксплуатации таким образом, позволяя избегать большого ремонта накапливающегося в процессе эксплуатации корабля.</t>
+		<t id="76090">Ремонтный Модуль Авианосца</t>
+		<t id="76091">Это тяжелое оборудование состоит из нескольких устройств, которые могут ремонтировать пристыкованные корабли. Несмотря на медленный процесс, технология позволяет использовать для ремонта имеющиеся материалы, что делает его полностью бесплатным.</t>
+		<t id="76092">Прыжковый  Двигатель Прототип</t>
+		<t id="76093">Долгое время это оборудование фигурировало как " Неизвестный артефакт 78642F". Оно хранилось на земной фабрике, вдали от центральных галактик. Однако недавно Терракорп обнаружил артефакт в целости и сохранности. К сожалению, они не смогли его вернуть и сообщили, что оно было похищено. Они напомнили Содружеству, что использование квантовой телепортации строго запрещено. Они также заявили, что в связи с очень ранней стадией разработки этого устройства все попытки его копирования обречены на провал.</t>
+		<t id="76094">Мобильное устройство ЭМИ</t>
+		<t id="76095">Это устройство генерирует значительное (||) количество энергии, которое может высвобождаться в виде очень быстрых импульсов, воздействуя на щиты всех кораблей и конструкций закрытых для излучения.</t>
+		<t id="76096">Экспериментальный транспортер</t>
+		<t id="76097">Долгое время это устройство значилось как "Неизвестный артефакт 78642F". Оно хранилось на земной фабрике, вдали от центра галактики, забытое, в то время как Ксеноны уничтожали большую часть собственности USC. Однако недавно Терракорп обнаружил, что артефакт не был поврежден в ходе атак. К сожалению, они не смогли его вернуть и сообщили о нём как о "похищенном имуществе правительства". Они напомнили Содружеству, что использование квантовой телепортации строго запрещено в пределах внешних границ галактик. Они также заявили, что из-за технологичности этого устройства все попытки его скопировать ни к чему хорошему не приведут.</t>
+		<t id='2071654'>Форпост</t>
+		<t id='2071655'>Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="16971">Исследовательская станция</t>
+		<t id="16972">Первоначально разработанная землянами, эта станция оснащена всем необходимым оборудованием для разработки новых чертежей. Все исследовательские станции имеют общую базу данных и могут одновременно работать над одним проектом. Как только комплект чертежей выполнен, его можно использовать для постройки корабля на любой верфи.</t>
+		<t id="16973">Машина смерти</t>
+		<t id="16974">???????????????????</t>
+		<t id="16942">Специальное устройство, позволяющее сканировать другие корабли с целью получения их структурных данных, необходимых для исследования чертежей.</t>
+		<t id="16204">Эти лазеры оснащены инфракрасными датчиками и системами распознавания "Свой/Чужой". Обычно их устанавливают в стратегических точках для обеспечения внутренней безопасности в случае абордажа или иного несанкционированного проникновения. \(Добавляет 1 врага в каждую комнату.\)</t>
+		<t id="16194">Поляризатор корпуса создаёт сильное устойчивое магнитное поле вокруг корпуса корабля. Поле нарушает работу плазменных резаков защищая корабль от проникновения незваных гостей, выстрелов и саботажа.</t>
+		<t id="2413">Стыковочный компьютер</t>
+		<t id="2414">Это оборудование позволяет любому кораблю мгновенно пристыковаться к ближайшей станции или авианосцу. Обратите внимание, что стыковочный компьютер не нужен, если у авианосца есть Транспортёр.</t>
+		<t id="15351">Аргонский Форпост</t>
+		<t id="15352">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="15353">Форпост Боронов</t>
+		<t id="15354">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="15355">Форпост Паранидов</t>
+		<t id="15356">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="15357">Сплитский Форпост</t>
+		<t id="15358">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="15359">Форпост Телади</t>
+		<t id="15360">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="15361">Форпост Яки</t>
+		<t id="15362">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="15363">Форпост</t>
+		<t id="15364">Эта станция имеет всю необходимую инфраструктуру для приема группы людей и строительства новых кораблей и станций. Первоначально спроектированные гонерскими архитекторами, все форпосты строятся вокруг продуманной системы, которая позволяет перемещать стены по желанию и создавать новые помещения, делая всю станцию гибкой. Здесь также есть ремонтный отсек и гигантский ангар.</t>
+		<t id="2281">Химическая лаборатория</t>
+		<t id="2282">Химические лаборатории - это большие заводы, которые превращают обычные отходы в высокотоксичную жидкость, которая позже застывает в холодильных камерах. Окружающая среда в этих помещениях настолько токсична, что все химические лаборатория полностью автоматизированы. Производимые здесь химикаты в основном используются для изготовления Теладиания.</t>
+		<t id="16101">(Трансорбитальный ускоритель)ТОУ</t>
+		<t id="16102">Трансорбитальные ускорители используются для ускорения космических кораблей до скоростей, близких к световым, чтобы они могли быстро пересекать огромные расстояния по галактике и последующего торможения.</t>
+		<t id="16103">Червоточина</t>
+		<t id="16104">Эти червоточины используются для того, чтобы космические корабли быстро преодолевали огромные расстояния по галактике. В отличие от червоточин землян, они обладают ограниченными мощностями и не позволяют совершать межгалактические путешествия.</t>
+		<t id="3731">Мальстрим</t>
+		<t id="3732">Этот односторонний портал нестабилен и был открыт несколькими учеными, которые утверждали, что знают, как они работают. Но на самом деле они этого не знают.</t>
+		<t id="3181">Торговая станция</t>
+		<t id="3182">Разработанные частными компаниями много лет назад, такие станции обеспечивают высочайший уровень комфорта и технологии.(||) Это прекрасные центры отдыха и развлечений. К услугам гостей гостиницы, бары, рестораны, казино и голографические кинотеатры. Пилоты могут рассчитывать на радушный прием.</t>
+		<t id="3973">Транспортёр</t>
+		<t id="3974">Это дорогостоящее устройство позволяет телепортироваться на любой корабль, находящийся в радиусе действия, без необходимости выходить в открытый космос. Кроме того, устройство дает возможность захватывать товары на большом расстоянии, обмениваться товарами между двумя кораблями, а также мгновенно стыковать любой корабль, прибывающий на авианосец, оснащенный транспортером. Обратите внимание, что без транспортера на авианосец можно мгновенно пристыковаться, если корабль оснащен стыковочным компьютером.</t>
+		<t id="2022">Рудные шахты в основном строятся вокруг небольших астероидов для более высокой выработки, которую обеспечивает низкая гравитация этих астероидов. Сначала астероиды анализируются специальными сканерами на содержание минералов. (||) В шахтах работают команды роботов, которые управляются шахтерами. Руда обрабатывается и транспортируется на различные заводы, где используется для изготовления металлических деталей. Учитывая, что Терракорп обладает исключительными правами на все полезные ископаемые, и что Содружество не может выжить без этих ресурсов, конструкция этой шахты была бесплатно предоставлена каждой фракции. Все другие разработки запрещены.</t>
+		<t id="2032">Кремниевые шахты строятся на небольших астероидах, которые ранее исследовались на предмет содержания в них кремниевых минералов. Минерал обычно находится чуть ниже поверхности (||). Их выкапывают и собирают специализированные роботы-геологоразведчики. Кремний перерабатывается в тонкие пластины, которые служат сырьем для производства многих технических изделий. Учитывая, что Терракорп обладает исключительными правами на все полезные ископаемые, и что Содружество не может выжить без этих ресурсов, конструкция этой шахты была бесплатно предоставлена каждой фракции. Все другие разработки запрещены.</t>
+		<t id="9070">Химикаты</t>
+		<t id="9071">Химикаты являются важнейшим ресурсом, главным образом используемым в производстве теладиания.</t>
+		<t id="9072">Отходы</t>
+		<t id="9073">Отходы производятся людьми и используются в некоторых отраслях промышленности, таких как химические лаборатории, и, что более тревожно, предприятия по производству белковой пасты.</t>
+		<t id="2054">Кристаллы важны для производства лазеров и щитов. Они производятся на фабриках кристаллов из Энергетических ячеек. Они также могут быть трансформированы в редкие цветные кристаллы.</t>
+		<t id="2052">Фабрика кристаллов производит кристаллы, которые используются в производстве лазеров и щитов. Кристаллы получаются из энергетических ячеек.</t>
+		<t id="2352">Челт-аквариумы расположены в Сплитских секторах, представляют собой обширные резервуары с соленой водой, хранящиеся внутри геодезических куполов, где  обитает существо, известное как Челт. Эти существа питаются, а затем перерабатываются на мясо. (||) Кожа Челта используется для изготовления прочного материала похожего на кожу, жир транспортируется на растарный завод и перерабатывается в растарное масло. Каждый аквариум потребляет энергию для работы двигателей, необходимых для работы огромных резервуаров с соленой водой.</t>
+		<t id="2354">Челты - это морские животные, которые когда-то обитали в морях и океанах на родной планете Сплитов, которых Сплиты уничтожали ради мяса, масла и их кожи, которую они обрабатывали для создания прочной ткани, похожей на кожу. Однако за многие язуры челты оказались на грани вымирания, и на них практически прекратили охотиться. В настоящее время челты выращиваются в космических аквариумах Челт, а затем продаются на Растарные заводы компании.</t>
+		<t id="2082">Компьютерный завод производит как готовые компьютеры, так и отдельные их компоненты, которые пользуются большим спросом во всей Вселенной (||). Фабрики также создают более специализированные компьютерные системы, которые можно найти на всех космических кораблях.</t>
+		<t id="7232">Рыба, фрукты, мясо и овощи производятся и потребляются форпостами.</t>		
+		<t id="7282">Рыба, фрукты, мясо и овощи производятся и потребляются форпостами.</t>		
+		<t id="7242">Рыба, фрукты, мясо и овощи производятся и потребляются форпостами.</t>		
+		<t id="7272">Рыба, фрукты, мясо и овощи производятся и потребляются форпостами.</t>
+		<t id="15222">Завод по производству обшивки корпуса занимает важное место в оборонной промышленности и является важной частью экономики в целом, так как в последние годы спрос на военные корабли снизился.</t>
+		<t id="15224">Обшивки корпуса изготавливается из комбинации металлов и теладиания производство которой значительно увеличилось в последние годы свозросшей активностью строительства кораблей всеми силами Содружества.</t>
+		<t id="7222">Ювелирные изделия, фармацевтические препараты, зерно и ткани - предметы роскоши, которыми торгуют в основном частные корпорации.</t>
+		<t id="7212">Ювелирные изделия, фармацевтические препараты, зерно и ткани - предметы роскоши, которыми торгуют в основном частные корпорации.</t>
+		<t id="7312">Ювелирные изделия, фармацевтические препараты, зерно и ткани - предметы роскоши, которыми торгуют в основном частные корпорации.</t>
+		<t id="7202">Ювелирные изделия, фармацевтические препараты, зерно и ткани - предметы роскоши, которыми торгуют в основном частные корпорации.</t>
+		 <t id="2072">Заводы по производству микросхем производят микрочипы, необходимые компоненты во всех компьютерах. Обычно их можно найти рядом с компьютерным заводом. (||) Чипы производятся из энергетических ячеек. Полученные чипы отправляются на компьютерный завод для установки в компьютеры.</t>
+		<t id="2074">Микрочипы изготавливаются из энергетических ячеек. В основном они используются в процессе производства компонентов компьютера.</t>
+		<t id="2062">Фабрика трубок производит квантовые трубки, которые используется в двигателях и системах управления всех космических кораблей.</t>
+		<t id="2064">Квантовые трубы используются в двигателях и системах управления всех космических кораблей.</t>
+		<t id="2024">Руда - самый распространенный минерал во всей известной вселенной. Она используется в процессе производства практически всех технических изделий. Руда добывается в рудных шахтах, которые строятся вокруг небольших астероидов. Добыча руды также может вестись специальными кораблями, оснащенными мобильной буровой установкой.</t>
+		<t id="2034">Кремний является основным ископаемым для производства всех ракет. Обычно его находят чуть ниже поверхности астероидов и добывают в огромных кремниевых шахтах в космосе, или на специальных кораблях, оснащенных Мобильной Буровой установкой.</t>
+		<t id="2382">Растарный завод - это темное и зловещее место, где крупные куски жирной плоти Челта вырезаются, а затем перерабатываются для получения масла под названием Растар (||). Многие расы используют это масло в качестве смазки для хрупких деталей.</t>
+		<t id="2384">Растар - это масло, получаемое из жира Челта. (||) Это масло, после его очистки, очень высококачественное и используется большинством рас для смазки деталей космических станций.</t>
+		<t id="2552">Теладианевый Литейный завод - это огромный завод, занимающийся производством твердого жесткого материала, известного как теладианий, который используется во Вселенной при строительстве космических станций (||). Он производится из смеси высушенной теладианской грязи и химикатов.</t>
+		<t id="2554">Теладийский ил - это мелкозернистый иловый осадок, встречающийся на дне рек и болот на планете Телади. Эта грязь при высыхании становится твердым минералом, называемым Теладианий (||) Этот минерал позже можно смешивать с химикатами, перерабатывать и даже добавлять в синтетические пластмассы, чтобы создать прочный гибкий материал, более прочный, чем закаленная сталь, но гораздо легче. Теладианий используется при строительстве космических станций.</t>
+		<t id="4812">Эти станции производят улучшенные спутники, которые являются заменой старым спутникам. Завод использует сложное оборудование для создания этих сложных небольших устройств (||) С изобретением передачи информации через сеть врат, спутники были разработаны для усиления этих сигналов, позже ученые добавили небольшую сеть датчиков к спутникам для облегчения навигации и управления станциями на большом расстоянии.</t>
+		<t id="4814">Этот спутник - следующее поколение передовых средств связи. Он оснащен технологией видеозахвата, новой функцией, которая была разработана для наблюдения за станциями и кораблями (||). Этот спутник до сих пор сохраняет старые функции, которые позволяют осуществлять навигацию и передачу информации ретрансляторами.</t>
+		<t id="16975">Хакерский Набор</t>
+		<t id="16976">Это не распознаваемый набор утилит представляет собой набор основных команд, используемых хакерами. Эти команды доступны только на вашем собственном корабле.</t>
+		<t id="16977">Комплект Мобильной Фабрики</t>
+		<t id="16978">Данное оборудование даёт возможность любому грузовому кораблю класса ST производить широкий ассортимент продукции. Однако такая примитивная мобильная фабрика менее эффективна, чем обычные фабрики, но при этом способна производить и уникальную продукцию. Комплект Мобильной Фабрики требует отстыковки корабля от станции и увеличивает расходы на обслуживание корабля не финансируемое компанией Терракорп.</t>
+		<t id="5414">Эти чипы были созданы давным давно знаменитой хакерской группой, во времена, когда уже было невозможно взломать корабль удалённо, сидя перед экраном компьютера. В настоящее время эти дорогие маленькие медные пластинки до сих пор тайком используются для взлома открытых портов близлежащих кораблей. Они требуют так много энергии, что их можно использовать только раз.</t>
+	</page>
+		
+	<page id="380035" title="Menu strings misc" descr="0" voice="no">
+		<t id="1102532">Показать спутники и прыжковые маяки</t>
+		<t id="738">Продавать другим торговцам</t>
+		<t id="1102523">Покупать у других торговцев</t>
+		<t id="751">Уровень опасности</t>
+		<t id="752">Красный</t>
+		<t id="753">Обычный</t>
+		<t id="679">&lt; OK &gt;</t>
+		<t id="1100028">Параметры станции</t>
+		<t id="1104020">Лидерство</t> <!-- Fighting -->
+		<t id="1104021">Логика</t> <!-- Hacking -->
+		<t id="1104022">Восприятие</t> <!-- Engineering -->
+		<t id="1104023">Мастерство</t> <!-- Mechanical -->
+		<t id="4755">Удалить из флота</t>
+		<t id="4756">Стать командующим флота</t>
+		<t id="4752">Командующий флотом</t>
+		<t id="4753">Распустить флот</t>
+		<t id="2060">Добавит в крыло(: Ваша Нова - YM345-Y)</t>
+		<t id="1104009">Группировать корабли по (Группировать список по )</t>
+		<t id="1104014">Удалить из текущего крыла</t>
+	</page>
+	
+	<page id="353335" title="L2 Defend Object" descr="0" voice="no">
+		<t id="101">Пираты собираются напасть на мою станцию! Они пригрозили, что если я не заплачу им за покровительство, они вернутся и уничтожат {object.name@L2M135.Station}. У меня не хватит денег, чтобы откупиться. Мне срочно нужна помощь.\n\033RДействуйте осторожно - они следят за станцией и атакуют любого чужака. Прошу, уничтожьте их до того, как они повредят моё имущество!</t>
+		<t id="102">Какие-то тёмные личности пообещали мне скорые неприятности с моей станцией, если я не заплачу им за "охрану". Я решил, что мне действительно нужно нанять охрану, пока они не вернулись.\n\033RДействуйте осторожно - они следят за станцией и атакуют любого чужака. Прошу, уничтожьте их до того, как они повредят моё имущество!</t>
+	</page>
+	
+	<page id="381000" title="Job names" descr="Races and job names" voice="yes">
+		<t id="8000100">{17,10005}</t> <!-- Miner -->
+		<t id="8000101">Торговец</t>
+	</page>
+	
+	<page id="382020" title="Command Console" descr="0" voice="no">
+		<t id="1005">Рабочие...</t>
+		<t id="8">База приписки:</t>
+		<t id="11">»» Всем турелям...</t>
+		<t id="86">Скрыть из меню собственности</t>
+		<t id="46">Очистить базу приписки</t>
+	</page>
+	
+	<!-- Wing menu - sorry, cannot bear the upper case craziness! -->
+	<page id="352020" title="Command Console" descr="0" voice="no">
+		<t id="46">Очистить базу приписки</t>
+		<t id="47">Крыло:</t>
+		<t id="48">Настройки по умолчанию для всех кораблей</t>
+		<t id="51">Минимальный диапазон автопрыжка</t>
+		<t id="52">Экстренный прыжок</t>
+		<t id="53">Уровень щита для экстренного прыжка</t>
+		<t id="54">Запасы топлива \(в прыжках\)</t>
+		<t id="56">Выбрать пассажира</t>
+		<t id="58">Лидер для игры</t>
+		<t id="62">Кораблей в крыле</t>
+		<t id="63">Сброс базу приписки для всех кораблей крыла к состоянию по умолчанию</t>
+		<t id="64">Очистить базу приписки для всех кораблей в крыле</t>
+		<t id="67">Естественное построение</t>
+		<t id="68">Открыть командную консоль корабля</t>
+		<t id="69">Вернуть корабль обратно в крыло</t>
+		<t id="70">Временно убрать корабль из крыла</t>
+		<t id="71">Сделать базой приписки для других кораблей</t>
+		<t id="75">Настройки корабля</t>
+		<t id="77">Покинуть крыло</t>
+		<t id="78">Добавить корабль в крыло</t>
+		<t id="81">Установить все турели корабля</t>
+		<t id="82">Установить все турели истребителя</t>
+		<t id="83">Установить все турели крупного корабля</t>
+		<t id="84">Количество лидеров формации</t>
+		<t id="85">Максимум кораблей на формацию</t>
+		<t id="86">Скрыть из меню собственности</t>
+		<t id="1006">Взлом...</t>
+	</page>
+	
+	<page id="54" title="Best sell upgrade" descr="" voice="no">
+		<t id="10">Редк.</t>
+		<t id="15">Обычн.</t>
+		<t id="18">Лучшие продажи </t>
+	</page>
+
+	<page id="58" title="Best buy upgrade" descr="" voice="no">
+		<t id="10">Редк.</t>
+		<t id="15">Обычн.</t>
+	</page>
+
+	<page id="350037" title="Encyclopedia Texts" descr="0" voice="no">
+		<t id="9">Торговля</t>
+		<t id="25">Повреждение щита \(За сек.\)</t>
+		<t id="26">Повреждение корпуса \(За сек.\)</t>
+		<t id="31">Необходимо энергии</t>
+	</page>
+	
+	<page id="351271" title="Misc" descr="0" voice="yes">
+		<t id="102019"></t> <!-- Old Goner station announcement. -->
+		<t id="102049"></t> <!-- Old Goner station announcement. -->
+		<t id="102069"></t> <!-- Old Goner station announcement. -->
+	</page>
+	
+	<page id="1266" title="Racenames" descr="Strings for the races" voice="no">
+		<t id="9">Частная Корп.</t>
+	</page>
+	
+</language>
