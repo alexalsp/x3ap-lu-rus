@@ -1,3 +1,13 @@
+# Домашняя страница 
+* https://apocalypse.moy.su/ 
+
+# поддкржка сайта и проектов 
+
+* https://goo.gl/eUn3pb | https://u.to/TN4iFg
+* WMZ: Z143317192317 | WME: E325499984879 
+* WMR: R281809367609 | WMP: P407353549505
+
+
 # Alaankwa ENG
 * Английская оригинальная ветка мода Alaankwa: https://github.com/temetvince/x3ap-lu
 
