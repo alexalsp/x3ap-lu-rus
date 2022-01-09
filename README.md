@@ -1,6 +1,9 @@
 # Домашняя страница 
 * https://apocalypse.moy.su/ 
 
+# Репаки глобальных модов
+* https://apocalypse.moy.su/forum/216 
+
 **Поддержка сайта и проектов**
 
 * https://goo.gl/eUn3pb | https://u.to/TN4iFg
