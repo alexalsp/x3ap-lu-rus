@@ -1,8 +1,8 @@
 # Alaankwa
 
-## Install Reshade
-1. Download and install ReShade
+## Установка Reshade
+1. Скачайте и установите ReShade
     * https://reshade.me/
-2. When asked for the game, browse and select X3AP.exe in your x3 install folder
-3. The game uses Direct3D 9
-4. When asked, install all the shaders. Everything. All of them
+2. Когда вас спросят об игре, укажите файл X3AP.exe в вашей папке игры
+3. Игра использует Direct3D 9
+4. На запрос установите все шейдеры. Абсолютно все. 
