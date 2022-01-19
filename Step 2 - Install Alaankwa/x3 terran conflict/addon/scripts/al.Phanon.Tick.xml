@@ -2299,7 +2299,7 @@
 			<text> </text>
 			<text>!=</text>
 			<text> </text>
-			<text>'Станция'</text>
+			<text>'Station'</text>
 		</line>
 		<line linenr="254" indent="&#160;&#160;&#160;&#160;">
 			<var>$x</var>
@@ -2668,7 +2668,7 @@
 			<text> </text>
 			<text>==</text>
 			<text> </text>
-			<text>'Станция'</text>
+			<text>'Station'</text>
 		</line>
 		<line linenr="289" indent="&#160;&#160;&#160;&#160;" interruptable="@">
 			<var>$TL</var>
@@ -2746,7 +2746,7 @@
 			<text> </text>
 			<text>==</text>
 			<text> </text>
-			<text>'Станция'</text>
+			<text>'Station'</text>
 		</line>
 		<line linenr="296" indent="&#160;&#160;&#160;&#160;">
 			<text>set</text>
@@ -4421,7 +4421,7 @@
 					<sval type="int" val="131074" />
 					<sval type="int" val="12" />
 					<sval type="int" val="5" />
-					<sval type="string" val="Станция" />
+					<sval type="string" val="Station" />
 					<sval type="int" val="15" />
 					<sval type="int" val="1" />
 					<sval type="int" val="3" />
@@ -4632,7 +4632,7 @@
 					<sval type="int" val="131074" />
 					<sval type="int" val="12" />
 					<sval type="int" val="5" />
-					<sval type="string" val="Станция" />
+					<sval type="string" val="Station" />
 					<sval type="int" val="15" />
 					<sval type="int" val="0" />
 					<sval type="int" val="3" />
@@ -4690,7 +4690,7 @@
 					<sval type="int" val="131074" />
 					<sval type="int" val="12" />
 					<sval type="int" val="5" />
-					<sval type="string" val="Станция" />
+					<sval type="string" val="Station" />
 					<sval type="int" val="15" />
 					<sval type="int" val="0" />
 					<sval type="int" val="3" />
