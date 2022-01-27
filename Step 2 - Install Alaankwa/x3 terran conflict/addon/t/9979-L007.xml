@@ -376,6 +376,8 @@
       <t id="1">\033RКОРАБЛЬ ПРОДАН НЕЗАКОННО! \033OСредства заморожены на сумму $%s. Конфисковано: %s.</t>
       <!-- tv.i18n.message.alaankwa.shipbought -->
       <t id="2">\033RНЕЗАКОННАЯ ПОКУПКА КОРАБЛЯ! \033OКонфисковано незаконных кораблей: %s. Компенсация: %s кр.</t>
+      <!-- tv.i18n.message.phanon.debug.nohq -->
+      <t id="3">\033OНет Phanon ШК для шпионажа.</t>
 
       <!-- tv.i18n.command.destruct.title -->
       <t id="1000">\033GЭтот корабль будет \033Rуничтожен\033G, вы \033Cуверены\033G?</t>
@@ -403,7 +405,7 @@
       <t id="4003">\033RЧит: Открыть всю карту</t>
       <!-- tv.i18n.hotkey.phanon.debug.name -->
       <t id="4004">\033OPhanon: Промышленный шпионаж</t>
-      <!-- tv.i18n.hotkey.datascanner.name -->
+      <!-- tv.i18n.hotkey.journal.name -->
       <t id="4005">\033CЛичный журнал</t>
       <!-- tv.i18n.hotkey.shipcompendium.name -->
       <t id="4006">\033GСравнение Кораблей Плю</t>
