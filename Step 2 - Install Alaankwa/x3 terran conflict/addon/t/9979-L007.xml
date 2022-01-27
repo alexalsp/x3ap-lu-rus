@@ -375,7 +375,7 @@
       <!-- tv.i18n.message.alaankwa.shipsold -->
       <t id="1">\033RКОРАБЛЬ ПРОДАН НЕЗАКОННО! \033OСредства заморожены на сумму $%s. Конфисковано: %s.</t>
       <!-- tv.i18n.message.alaankwa.shipbought -->
-      <t id="2">\033RILLEGAL SHIP PURCHASE! \033OAll illegal %s ships forfeited. Refund: %s Cr.</t>
+      <t id="2">\033RНЕЗАКОННАЯ ПОКУПКА КОРАБЛЯ! \033OКонфисковано незаконных кораблей: %s. Компенсация: %s кр.</t>
 
       <!-- tv.i18n.command.destruct.title -->
       <t id="1000">\033GЭтот корабль будет \033Rуничтожен\033G, вы \033Cуверены\033G?</t>
@@ -398,9 +398,9 @@
       <!-- tv.i18n.hotkey.satellitemonitoring.name -->
       <t id="4001">\033GСпутниковый мониторинг Плюс</t>
       <!-- tv.i18n.hotkey.cheat.save.name -->
-      <t id="4002">\033RЧит: Всегда</t>
+      <t id="4002">\033RЧит: Сохранить игру</t>
       <!-- tv.i18n.hotkey.cheat.addsats.name -->
-      <t id="4003">\033RЧит: Весь космос</t>
+      <t id="4003">\033RЧит: Открыть всю карту</t>
       <!-- tv.i18n.hotkey.phanon.debug.name -->
       <t id="4004">\033OPhanon: Промышленный шпионаж</t>
       <!-- tv.i18n.hotkey.datascanner.name -->

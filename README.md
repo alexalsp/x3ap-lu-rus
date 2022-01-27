@@ -18,6 +18,7 @@
 # Alaankwa RUS
 * Для загрузки, перейдите к последней версии и кликните по 'Source code (zip)': https://github.com/alexalsp/x3ap-lu-rus/releases/
 * 'Alaankwa' значит "звезда" на языке племени (Myaamia).
+* Теперь полностью адаптирован к МодПаку.
 
 ## Discord
 * https://discord.gg/S587CRb [ENG]

@@ -17,201 +17,201 @@
  16384 = Argon Rank 333
  32768 =
  65536 =-->     <!-- Ship Gallery -->
-     <gamestart id="101" name="SWLU Галерея кораблей" description="Один сектор, где вы можете опробовать все корабли из SWLU с неограниченными кредитами. Поскольку этот сектор используется для тестов, у вас не будет доступа во вселенную." difficulty="X-Wing отладка" image="start88" plot="0">
+     <gamestart id="101" name="Галерея кораблей" description="Один сектор, где вы можете опробовать все корабли из SWLU с неограниченными кредитами. Поскольку этот сектор используется для тестов, у вас не будет доступа во вселенную." difficulty="X-Wing отладка" image="start88" plot="0">
           <player name="Обзор корабля" species="Режим тестирования" gender="Аргон" age="Н/Д"/>
           <!-- Debug and Testing -->
           <sector x="0" y="14"/>
-          <ship typename="SS_SH_K_M3_DEBUG_XWING" comment="X-Wing отладка"/>
+          <ship typename="SS_SH_K_M3_DEBUG_XWING" comment="Debug X-Wing"/>
      </gamestart>     <!-- Rebel Smuggler -->
-     <gamestart id="102" name="SWLU Аргонский Контрабандист" description="Вы начнете с перевозки ценных (и нелегальных) бластеров на борту своего грузового корабля Легкого транспорта YT-2400. Их можно выгодно продать за хорошую цену." difficulty="TS" image="startRebel" plot="0">
-          <player name="SWLU Аргонский Контрабандист" species="Аргонец" gender="Аргон" age="Нормально"/>
+     <gamestart id="102" name="Аргонец Контрабандист" description="Вы начнете с перевозки ценных (и нелегальных) бластеров на борту своего грузового корабля Легкого транспорта YT-2400. Их можно выгодно продать за хорошую цену." difficulty="TS" image="startRebel" plot="0">
+          <player name="Аргонец Контрабандист" species="Аргонец" gender="Аргон" age="Нормально"/>
           <!-- Aquaris -->
           <sector x="17" y="4"/>
-          <ship typename="SS_SH_A_TS_YT2400_REB" comment="Легкий транспорт YT2400"/>
+          <ship typename="SS_SH_A_TS_YT2400_REB" comment="YT2400 Light Freighter"/>
      </gamestart>     <!-- Rebel Recruit -->
-     <gamestart id="103" name="SWLU Аргонец новичок" description="Вступив в ряды Альянса Повстанцев, вы получили для испытания истребитель X-Wing с экспериментальным ускорителем." difficulty="M4" image="startRebel" plot="0">
-          <player name="SWLU Аргонец новичок" species="Аргонец" gender="Аргон" age="Нормально"/>
+     <gamestart id="103" name="Аргонец новичок" description="Поступив на аргонскую службу, вам дали испытать истребитель X-Wing с экспериментальным ускорителем." difficulty="M4" image="startRebel" plot="0">
+          <player name="Аргонец новичок" species="Аргонец" gender="Аргон" age="Нормально"/>
           <!-- Kashyyk -->
           <sector x="20" y="6"/>
-          <ship typename="SS_SH_K_M3_XWING_P" comment="X-Wing Прототип"/>
+          <ship typename="SS_SH_K_M3_XWING_P" comment="X-Wing Prototype"/>
      </gamestart>     <!-- Jedi Survivor -->
-     <gamestart id="105" name="SWLU Выживший Гонер" description="Благодаря тому, что вы были под прикрытием в сепаратистском секторе, вы пережили 66-й орден. Чтобы выжить, вам нужно найти новых союзников." difficulty="M5" image="startJedi" plot="0">
-          <player name="SWLU Выживший Гонер" species="Гонер" gender="Гонер" age="Очень тяжело"/>
+     <gamestart id="105" name="Выживший Гонер" description="Благодаря тому, что вы были под прикрытием в секторе Паранидов, вы пережили 66-й орден. Чтобы выжить, вам нужно найти новых союзников." difficulty="M5" image="startJedi" plot="0">
+          <player name="Выживший Гонер" species="Гонер" gender="Гонер" age="Очень тяжело"/>
           <!-- Teth -->
           <sector x="23" y="08"/>
-          <ship typename="SS_SH_G_M5_DELTA7_RED" comment="Истребитель Джедаев Delta-7"/>
+          <ship typename="SS_SH_G_M5_DELTA7_RED" comment="Delta-7 Jedi Starfighter"/>
      </gamestart>     <!-- Damyath Import -->
-     <gamestart id="106" name="SWLU Импорт Игры" description="Импорт ранее экспортированной игры Вселенной Litcube." difficulty="Нет" image="start88" plot="0">
+     <gamestart id="106" name="Импорт Игры" description="Это меню позволит вам импортировать ранее сохраненные данные собственности в новую игру вселенной Litcube." difficulty="Нет" image="start88" plot="0">
           <player name="Вселенная Litcube's" species="LU Импорт Галактика" gender="Н/Д" age="Н/Д"/>
           <!-- Argon Prime -->
           <sector x="1" y="3"/>
           <ship typename="SS_SH_A_M5"/>
      </gamestart>     <!-- Sepratist Holdout -->
-     <gamestart id="107" name="SWLU Техносоюз" description="Практически уничтоженные империей, вы восстановили свои силы и продолжили борьбу с империей за Конфедерацию!" difficulty="M7 + 2 x M6 + 4 x M4" image="startSeparatist" plot="0">
-          <player name="SWLU Техносоюз" species="Сепаратист" gender="Паранид" age="Средний"/>
+     <gamestart id="107" name="Техносоюз" description="Практически уничтоженные Землянами, вы восстановили свои силы и продолжили борьбу с землянами за Конфедерацию!" difficulty="M7 + 2 x M6 + 4 x M4" image="startSeparatist" plot="0">
+          <player name="Техносоюз" species="Паранид" gender="Паранид" age="Средний"/>
           <!-- Agamar -->
           <sector x="16" y="03"/>
-          <ship typename="SS_SH_P_M7_MUNIFICENT" comment="Фрегат Щедрость"/>
+          <ship typename="SS_SH_P_M7_MUNIFICENT" comment="Munificent Frigate"/>
      </gamestart>     <!-- Re-Activated Droid -->
-     <gamestart id="108" name="SWLU Осколки Банковского Клана" description="Сбежав в неизвестные регионы от империи, Осколки Банковского Клана не прекращают борьбу с ксеносами." difficulty="M7 + Подкрепление" image="startSeparatist" plot="0">
-          <player name="Осколок Банковского Клана" species="Сепаратист" gender="Паранид" age="Песочница"/>
+     <gamestart id="108" name="Банковский Клан" description="Сбежав в неизвестные регионы от Землян, Банковский Клан не прекращает борьбу с ксеносами." difficulty="M7 + Подкрепление" image="startSeparatist" plot="0">
+          <player name="Банковский Клан" species="Паранид" gender="Паранид" age="Песочница"/>
           <!-- Unknown Sepratist Holdout -->
           <sector x="4" y="9"/>
-          <ship typename="SS_SH_P_M5_TRI" comment="Дроид Три-Истребитель"/>
+          <ship typename="SS_SH_P_M5_TRI" comment="Droid Tri-Fighter"/>
      </gamestart>     <!-- Rebel Squadron -->
-     <gamestart id="109" name="SWLU Аргонская эскадра" description="Возглавьте эскадру истребителей повстанцев для оказания помощи флоту повстанцев на Эндоре." difficulty="7 x M4" image="startRebel" plot="0">
-          <player name="SWLU Аргонская эскадра" species="Аргонцы" gender="Аргон" age="Нормально"/>
+     <gamestart id="109" name="Аргонская эскадра" description="Вам предстоит возглавить аргонскую эскадру истребителей и оказать помощь аргонскому флоту на Эндоре." difficulty="7 x M4" image="startRebel" plot="0">
+          <player name="Аргонская эскадра" species="Аргонец" gender="Аргон" age="Нормально"/>
           <!-- Bakura -->
           <sector x="12" y="14"/>
           <ship typename="SS_SH_B_M4_XWING_ADV" comment="X-Wing T65-B"/>
      </gamestart>     <!-- Old Republic Enthusiast -->
-     <gamestart id="110" name="SWLU Энтузиаст Старой Республики" description="Вы колекционер старых античных кораблей. До вас дошли слухи о дрейфующем в далеком космосе легендарном корабле котрый вы желаете заполучить в свою коллекцию" difficulty="M6 + 2 x TS" image="startOldRepublic" plot="0">
-          <player name="SWLU Энтузиаст Старой Республики" species="Старая Республика" gender="Яки" age="Легко"/>
+     <gamestart id="110" name="Яки коллекционер" description="Вы коллекционер старых античных кораблей. До вас дошли слухи о дрейфующем в далеком космосе легендарном корабле который вы желаете заполучить в свою коллекцию." difficulty="M6 + 2 x TS" image="startOldRepublic" plot="0">
+          <player name="Яки коллекционер" species="Яки" gender="Яки" age="Легко"/>
           <!-- Iridonia -->
           <sector x="13" y="03"/>
-          <ship typename="SS_SH_Y_M6_BT7" comment="НЕОБХОДИМО ИСПРАВИТЬ ОШИБКИ"/>
+          <ship typename="SS_SH_Y_M6_BT7" comment="NEEDS FIXINGISAOHFAOIGF"/>
      </gamestart>     <!-- Reborn Sith -->
-     <gamestart id="111" name="SWLU Переродившийся Яки" description="Ты был скрыт в храме тысячи лет пока не был воскрешен темной стороной силы. На своем корабле вы отправились господствовать во вселенной." difficulty="M6" image="startOldRepublic" plot="0">
-          <player name="SWLU Переродившийся Яки" species="Старая Республика" gender="Яки" age="Нормально"/>
+     <gamestart id="111" name="Переродившийся Яки" description="Скитавшись в пустоте черного космоса, вы искали смысл своего существования долгие годы. Теперь на своем корабле вы отправляетесь господствовать во вселенной." difficulty="M6" image="startOldRepublic" plot="0">
+          <player name="Переродившийся Яки" species="Яки" gender="Яки" age="Нормально"/>
           <!-- Unknown Old Republic Holdout -->
           <sector x="09" y="12"/>
-          <ship typename="SS_SH_Y_M6_X70B" comment="X-70B Фантом"/>
+          <ship typename="SS_SH_Y_M6_X70B" comment="X-70B Phantom"/>
      </gamestart>     <!-- Black Sun Outlaw -->
-     <gamestart id="112" name="SWLU Чёрное солнце" description="[НЕСТАБИЛЬНЫЙ] Вы были практически уничтожены галактическим правительством, но после успешного угона медицинского транспорта, у вас появилась надежда на возрождение организации &quot;Черное Солнце&quot;." difficulty="M6 + TL" image="startPirate" plot="0">
-          <player name="SWLU Чёрное солнце" species="Пират Чёрного Солнца" gender="Пират" age="Очень тяжело"/>
+     <gamestart id="112" name="Чёрное солнце" description="[НЕСТАБИЛЬНЫЙ] Вы были практически уничтожены галактическим правительством, но после успешного угона медицинского транспорта, у вас появилась надежда на возрождение организации &quot;Черное Солнце&quot;." difficulty="M6 + TL" image="startPirate" plot="0">
+          <player name="Чёрное солнце" species="Чёрное солнце" gender="Пират" age="Очень тяжело"/>
           <!-- Adumar -->
           <sector x="11" y="03"/>
-          <ship typename="SS_SH_PI_M6_YKL" comment="Пират YKL"/>
+          <ship typename="SS_SH_PI_M6_YKL" comment="Pirate YKL"/>
      </gamestart>     <!-- Galaxy's Most Wanted -->
-     <gamestart id="113" name="SWLU Самые розыскиваемые" description="С распадом Консорциума Зан после поражения от рук как повстанцев, так и Империи все желают вашей смерти. Вам предстоит большая работа на пути к миру и процветанию со всеми во вселенной." difficulty="3 x M3 + TL" image="startZann" plot="0">
-          <player name="SWLU Самые розыскиваемые" species="Консорциум Занн" gender="Пират" age="Экстрим"/>
+     <gamestart id="113" name="Самые разыскиваемые" description="С распадом Консорциума Зан после поражения от рук как Аргонцев, так и Землян, все жаждут вашей смерти. Вам предстоит большая работа на пути к миру и процветанию со всеми во вселенной." difficulty="3 x M3 + TL" image="startZann" plot="0">
+          <player name="Самые розыскиваемые" species="Консорциум Занн" gender="Пират" age="Экстрим"/>
           <!-- Unknown Sector Zeta -->
           <sector x="09" y="06"/>
-          <ship typename="SS_SH_S_M3_SKIPRAY" comment="Канонерка GAT-12"/>
+          <ship typename="SS_SH_S_M3_SKIPRAY" comment="Skipray Blastboat"/>
      </gamestart>     <!-- Corporate Sector Prospector -->
-     <gamestart id="114" name="SWLU Разведчик ПКС" description="Пока в галактике продолжается гражданская война, вы вынуждены бежать к Телади в поисках безопасного места для ведения бизнеса." difficulty="3 x TS" image="startCSA" plot="0">
-          <player name="SWLU Разведчик ПКС" species="Телади" gender="Телади" age="Легко"/>
+     <gamestart id="114" name="Разведчик ПКС" description="Пока в галактике продолжается гражданская война, вы вынуждены бежать к Телади в поисках безопасного места для ведения бизнеса." difficulty="3 x TS" image="startCSA" plot="0">
+          <player name="Разведчик ПКС" species="Телади" gender="Телади" age="Легко"/>
           <!-- Saffalore -->
           <sector x="22" y="00"/>
-          <ship typename="SS_SH_A_TS_GR75" comment="Галлофри транспорт"/>
+          <ship typename="SS_SH_A_TS_GR75" comment="Gallofree Transport"/>
      </gamestart>     <!-- Deluded Scoundrel -->
-     <gamestart id="115" name="SWLU Обманутый Негодяй" description="Вы проиграли все деньги и угнали корабль в надежде заполучит карту сокровищ, которую вы искали всю свою жизнь. " difficulty="TM" image="startRebel" plot="0">
-          <player name="SWLU Обманутый Негодяй" species="Аргонец" gender="Аргон" age="Тяжело"/>
+     <gamestart id="115" name="Обманутый Негодяй" description="Вы проиграли все деньги и угнали корабль в надежде заполучит карту сокровищ, которую вы искали всю свою жизнь " difficulty="TM" image="startRebel" plot="0">
+          <player name="Обманутый Негодяй" species="Аргонец" gender="Аргон" age="Сложно"/>
           <!-- Akuria II -->
           <sector x="18" y="01"/>
-          <ship typename="SS_SH_OTAS_TM_QUADJUMPER" comment="Квадджампер"/>
+          <ship typename="SS_SH_OTAS_TM_QUADJUMPER" comment="Quadjumper"/>
      </gamestart>     <!-- Rebel Admiral -->
      <gamestart id="116" name="Аргонский адмирал" description="Собрав флот на средства Аргонцев, вы отправитесь на войну с Землянами." difficulty="Огромный флот" image="startRebel" plot="0">
-          <player name="Аргонский адмирал" species="Аргонцы" gender="Аргон" age="Просто"/>
+          <player name="Аргонский адмирал" species="Аргонец" gender="Аргон" age="Просто"/>
           <!-- Mon Cala -->
           <sector x="23" y="04"/>
           <ship typename="SS_SH_B_M2_ASSFRG_MK2" comment="Assault Frigate MK2"/>
      </gamestart>     <!-- Imperial Grand Admiral -->
      <gamestart id="117" name="Величайший Адмирал землян" description="Держа курс, со своим флотом, прямо к базе аргонцев, вы готовы навсегда покончить с ними." difficulty="Огромный флот" image="startEmpire" plot="0">
-          <player name="Imperial Grand Admiral" species="Земляне" gender="Земляне" age="Просто"/>
+          <player name="Величайший Адмирал землян" species="Земляне" gender="Земляне" age="Просто"/>
           <!-- Nez Peron -->
           <sector x="18" y="02"/>
           <ship typename="SS_SH_TR_M6_RAIDER" comment="Raider Corvette"/>
      </gamestart>     <!-- Imperial Convoy -->
-     <gamestart id="118" name="SWLU Конвой Землян" description="Ваш легкий конвой отвечает за доставку кристалов для имперского проекта &quot;Звёздная Пыль&quot;. Сопроводите гргуз на имперский форпост добычи." difficulty="TM + 4 x M5" image="startEmpire" plot="0">
-          <player name="SWLU Конвой Землян" species="Земляне" gender="Земляне" age="Экстрим"/>
+     <gamestart id="118" name="Конвой Землян" description="Ваш конвой отвечает за доставку кристалов для проекта землян &quot;Звёздная Пыль&quot;. Сопроводите груз на земной форпост добычи." difficulty="TM + 4 x M5" image="startEmpire" plot="0">
+          <player name="Конвой Землян" species="Земляне" gender="Земляне" age="Экстрим"/>
           <!-- Illum -->
           <sector x="8" y="3"/>
           <ship typename="SS_SH_TR_TM_GOZANTIV" comment="Gozanti Vanguard"/>
      </gamestart>     <!-- Empire's Finest -->
-     <gamestart id="119" name="SWLU Земной асс" description="В качестве имперского пилота аса, вы были выбраны для испытаний нового истребителя TIE Защитник. " difficulty="M3" image="startEmpire" plot="0">
-          <player name="SWLU Земной асс" species="Земляне" gender="Земляне" age="Нормально"/>
+     <gamestart id="119" name="Земной асс" description="Благодаря своим навыкам, вы были выбраны для испытаний нового истребителя TIE Защитник." difficulty="M3" image="startEmpire" plot="0">
+          <player name="Земной асс" species="Земляне" gender="Земляне" age="Нормально"/>
           <!-- Anaxes -->
           <sector x="14" y="6"/>
-          <ship typename="SS_SH_TR_M3_TIE_D" comment="СИД Защитник"/>
+          <ship typename="SS_SH_TR_M3_TIE_D" comment="TIE Defender"/>
      </gamestart>     <!-- Corporate Sector Administrator -->
-     <gamestart id="121" name="SWLU Теладийский администратор" description="Ваше огромное состояние и политическая карьера открывает перед вами возможность инвестирования в различные сферы деятельности. Устанавливайте монополию, стройте флот и доминируйте в сфере экономики." difficulty="TP, 1.5 Billion Credits" image="startCSA" plot="0">
+     <gamestart id="121" name="Теладийский администратор" description="Ваше огромное состояние и политическая карьера открывает перед вами возможность инвестирования в различные сферы деятельности. Устанавливайте монополию, стройте флот и доминируйте в сфере экономики." difficulty="TP, 1.5 Миллиарда Кредитов" image="startCSA" plot="0">
           <player name="Теладийский администратор" species="Власти Телади" gender="Телади" age="Просто"/>
           <!-- Etti 4 -->
           <sector x="22" y="01"/>
-          <ship typename="SS_SH_T_TP_ROYAL" comment="Нубийский королевский корабль"/>
+          <ship typename="SS_SH_T_TP_ROYAL" comment="Royal Starship"/>
      </gamestart>     <!-- Rattatak Scrapper -->
-     <gamestart id="123" name="SWLU Раттатак Скраппер" description="После многих лет жажды космических путешествий, вы починили, поднятый со дна моря, затонувший корабль и отправились бороздить просторы космоса." difficulty="M5" image="startRepublic" plot="0">
-          <player name="SWLU Раттатак Скраппер" species="Раттатак" gender="Н/Д" age="Тяжело"/>
+     <gamestart id="123" name="Раттатак Скраппер" description="После многих лет жажды космических путешествий, вы починили поднятый со дна моря  затонувший корабль,  и отправились в космос." difficulty="M5" image="startRepublic" plot="0">
+          <player name="Раттатак Скраппер" species="Раттатак" gender="Н/Д" age="Сложно"/>
           <!-- Rattatak -->
           <sector x="12" y="13"/>
           <ship typename="SS_SH_OTAS_M5_T16" comment="T-16 Skyhopper"/>
      </gamestart>     <!-- Mandalorian Outcast -->
-     <gamestart id="124" name="SWLU Сплит изгой" description="Изгнанный из дома Визсла вам предстоит доказать свою ценность через сражения и славу. Возьмите свой корабль и верните себе звание Сплитского воина." difficulty="M8" image="startMandalorian" plot="0">
-          <player name="SWLU Сплит изгой" species="Сплит" gender="Сплит" age="Тяжело"/>
+     <gamestart id="124" name="Сплит изгой" description="Изгнанный из дома Визсла вам предстоит доказать свою ценность через сражения и славу. Возьмите свой корабль и верните себе звание Сплитского воина." difficulty="M8" image="startMandalorian" plot="0">
+          <player name="Сплит изгой" species="Сплит" gender="Сплит" age="Сложно"/>
           <!-- Anteevy -->
           <sector x="20" y="03"/>
           <ship typename="SS_SH_S_M8_SLAVE1" comment="Slave 1"/>
      </gamestart>     <!-- Mandalorian Arms Dealer -->
-     <gamestart id="125" name="SWLU Сплитский оружейник" description="У вас свои фабрики и заводы по производству Сплитского оружия, лучшего в галактике. В условиях непрекращающихся войн у вас есть все шансы разширить свой бизнес." difficulty="2 x ST + 3 x TS" image="startMandalorian" plot="0">
-          <player name="SWLU Сплитский оружейник" species="Сплит" gender="Сплит" age="Легко"/>
+     <gamestart id="125" name="Сплитский оружейник" description="У вас свои фабрики и заводы по производству Сплитского оружия, лучшего в галактике. В условиях непрекращающихся войн у вас есть все шансы разширить свой бизнес." difficulty="2 x ST + 3 x TS" image="startMandalorian" plot="0">
+          <player name="Сплитский оружейник" species="Сплит" gender="Сплит" age="Легко"/>
           <!-- Concord Dawn -->
           <sector x="20" y="04"/>
           <ship typename="SS_SH_S_TS_YV666_MAND" comment="YV-666 (Hound's Tooth)"/>
      </gamestart>     <!-- Bothan Spy -->
-     <gamestart id="126" name="SWLU Шпион Ботанов" description="Отслужив в земном флоте пилотом, вы стараетесь поддерживать хорошие отношения, несмотря на свою преданность Аргону. Когда наступит день, они даже не поймут, что произошло." difficulty="M5 + M4" image="startRebel" plot="0">
-          <player name="SWLU Шпион Ботанов" species="Аргонцы" gender="Аргон" age="Нормально"/>
+     <gamestart id="126" name="Шпион Ботанов" description="Отслужив в земном флоте пилотом, вы стараетесь поддерживать хорошие отношения, несмотря на свою преданность Аргону. Когда наступит день, они даже не поймут, что произошло." difficulty="M5 + M4" image="startRebel" plot="0">
+          <player name="Шпион Ботанов" species="Аргонец" gender="Аргон" age="Нормально"/>
           <!-- Bothawui -->
           <sector x="21" y="11"/>
           <ship typename="SS_SH_G_M5_AWING2_BLUE" comment="A-Wing RZ-2"/>
      </gamestart>     <!-- WIP Test -->
-     <gamestart id="127" name="SWLU В процессе разработки" description="Еще не реализовано. Не подглядывать!" difficulty="M3" image="startNewRepublic" plot="0">
-          <player name=" WIP Режим игры" species="Новая Республика" gender="Борон" age="Нормально"/>
+     <gamestart id="127" name="В процессе разработки" description="Еще не реализовано. Не подглядывать!" difficulty="M3" image="startNewRepublic" plot="0">
+          <player name="WIP Режим игры" species="Борон" gender="Борон" age="Нормально"/>
           <!-- Uncharted Space -->
           <sector x="00" y="15"/>
-          <ship typename="SS_SH_K_M3_BWING_NOSETA" comment="B-Wing Advanced - Специальная версия без списков товаров"/>
+          <ship typename="SS_SH_K_M3_BWING_NOSETA" comment="B-Wing Advanced - Special version with no ware lists"/>
      </gamestart>     <!-- Bravo Flight -->
-     <gamestart id="128" name="SWLU командир эскадрильи" description="Вы - командир эскадрильи Браво истребителей Набу. Вам предстоит выбрать, с кем заключить союз в текущем конфликте и определить судьбу Набу." difficulty="14 x M5 + Station" image="startBravo" plot="0">
-          <player name="SWLU командир эскадрильи" species="Силы обороны Набу" gender="Н/Д" age="Нормально"/>
+     <gamestart id="128" name="Командир эскадрильи" description="Вы - командир эскадрильи &quot;Бравого&quot; истребителей Набу. Вам предстоит выбрать, с кем заключить союз в текущем конфликте и определить судьбу Набу." difficulty="14 x M5 + Station" image="startBravo" plot="0">
+          <player name="Командир эскадрильи" species="Силы обороны Набу" gender="Н/Д" age="Нормально"/>
           <!-- Naboo -->
           <sector x="17" y="14"/>
-          <ship typename="SS_SH_T_M5_N1" comment="Истребитель N-1"/>
+          <ship typename="SS_SH_T_M5_N1" comment="N-1 Starfighter"/>
      </gamestart>     <!-- ExGal Outpost manager -->
-     <gamestart id="129" name="SWLU Менеджер форпоста ЭксГал" description="Вы построили и обслуживаете форпост ExGal-4 на краю галактики с целью исследования инопланетных видов." difficulty="3 x TS + 1 Station" image="startRepublic" plot="0">
-          <player name="SWLU Менеджер форпоста ЭксГал" species="Без принадлежности" gender="Н/Д" age="Тяжело"/>
+     <gamestart id="129" name="Менеджер форпоста ЭксГал" description="Вы построили и обслуживаете форпост ExGal-4 на краю галактики с целью исследования инопланетных видов." difficulty="3 x TS + 1 Station" image="startRepublic" plot="0">
+          <player name="Менеджер форпоста ЭксГал" species="Без принадлежности" gender="Н/Д" age="Сложно"/>
           <!-- Belkadan -->
           <sector x="15" y="0"/>
-          <ship typename="SS_SH_A_TS_YV929" comment="YV929 Супергрузовик"/>
+          <ship typename="SS_SH_A_TS_YV929" comment="YV929 Super Freighter"/>
      </gamestart>     <!-- Traitorous Delinquent -->
-     <gamestart id="130" name="SWLU Вероломный преступник" description="На ваше счастье, ваши родители были политиками, живущими в центральном секторе. На их деньги вы купили корабль и отправились бороздить просторы галактики." difficulty="TS" image="startEmpire" plot="0">
-          <player name="SWLU Вероломный преступник" species="Земляне" gender="Земляне" age="Нормально"/>
+     <gamestart id="130" name="Вероломный преступник" description="На ваше счастье, ваши родители были политиками, живущими в центральном секторе. На их деньги вы купили корабль и отправились бороздить просторы галактики " difficulty="TS" image="startEmpire" plot="0">
+          <player name="Вероломный преступник" species="Земляне" gender="Земляне" age="Нормально"/>
           <!-- Corellia -->
           <sector x="17" y="8"/>
           <ship typename="SS_SH_TR_TS_YT1300_IMP" comment="YT1300 Light Freighter"/>
      </gamestart>     <!-- Retired Captain -->
-     <gamestart id="131" name="Отставной капитан" description="Уйдя в отставку с поста капитана корабля &quot;Освобождение&quot;, вы мечтаете о мирной жизни. Кроме того, вы получили щедрое вознаграждение за свои заслуги." difficulty="1 x TS" image="startRebelScripted" plot="0">
-          <player name="Отставной капитан" species="Аргонцы" gender="Аргон" age="Легко"/>
+     <gamestart id="131" name="Отставной капитан" description="После выхода в отставку в должности капитана и получив щедрую пенсию вы ищите спокойную жизнь." difficulty="1 x TS" image="startRebelScripted" plot="0">
+          <player name="Отставной капитан" species="Аргонец" gender="Аргон" age="Легко"/>
           <!-- Kamino -->
           <sector x="22" y="13"/>
           <ship typename="SS_SH_SAT" comment="Navagation Relay Satellite"/>
      </gamestart>     <!-- Imperial Border Control -->
-     <gamestart id="132" name="SWLU Земной пограничник" description="Быстро продвинувшись по службе, вы получили небольшой корабль и эскорт для защиты границ Земного пространства с основными мирами." difficulty="1 x M6 + 2 x M4" image="startEmpire" plot="0">
-          <player name="SWLU Земной пограничник" species="Земляне" gender="Земляне" age="Легко"/>
+     <gamestart id="132" name="Земной пограничник" description="Быстро продвинувшись по службе, вы получили небольшой корабль и эскорт для защиты границ Земного пространства." difficulty="1 x M6 + 2 x M4" image="startEmpire" plot="0">
+          <player name="Земной пограничник" species="Земляне" gender="Земляне" age="Легко"/>
           <!-- Onderon -->
           <sector x="19" y="6"/>
-          <ship typename="SS_SH_TR_M6_RAIDER" comment="Корвет класса Рейдер"/>
+          <ship typename="SS_SH_TR_M6_RAIDER" comment="Raider Class Corvette"/>
      </gamestart>     <!-- Reborn Rakkatan -->
-     <gamestart id="133" name="SWLU Переродившийся Ракката" description="Вы единственный выживший представитель своего вида, и на вас возложена ответственность отомстить за своих погибших сородичей." difficulty="1 x M3" image="startInfinite" plot="0">
-          <player name="SWLU Переродившийся Ракката" species="Бесконечная империя" gender="Н/Д" age="Экстрим"/>
+     <gamestart id="133" name="Переродившийся Ракката" description="Вы единственный выживший представитель своего вида, и на вас возложена ответственность отомстить за своих погибших сородичей." difficulty="1 x M3" image="startInfinite" plot="0">
+          <player name="Переродившийся Ракката" species="Великая империя" gender="Н/Д" age="Экстрим"/>
           <!-- Rakkata Prime -->
           <sector x="7" y="6"/>
           <ship typename="SS_SH_X_M3" comment="Junk Ship"/>
      </gamestart>     <!-- Stranded -->
-     <gamestart id="134" name="SWLU Затерянный в космосе" description="Вы работали ученым в USC и занимались испытаниями прыжковых двигателей. После несчастного случая, во время испытания, вы оказались в глуши, далеко-далеко за пределами галактики..." difficulty="1 x M6" image="startTerran" plot="0">
-          <player name="SWLU Затерянный в космосе" species="Н/Д" gender="Земляне" age="Экстрим"/>
+     <gamestart id="134" name="Затерянный в космосе" description="Вы работали ученым в ОКК и занимались испытаниями прыжковых двигателей. После несчастного случая, во время испытания, вы оказались в глуши, далеко-далеко за пределами галактики..." difficulty="1 x M6" image="startTerran" plot="0">
+          <player name="Затерянный в космосе" species="Н/Д" gender="Земляне" age="Экстрим"/>
           <!-- Intergalactic Void -->
           <sector x="3" y="11"/>
           <ship typename="SS_SH_TR_M6" comment="L"/>
      </gamestart>     <!-- Rebel Cell Leader -->
-     <gamestart id="135" name="SWLU Аргонский лидер" description="Вы командующий повстанцами в домашнем секторе. Развивайтесь до тех пор, пока не будете готовы к войне с Империей." difficulty="База + Малый флот" image="startRebelScripted" plot="0">
-          <player name="SWLU Аргонский лидер" species="Аргонцы" gender="Аргон" age="Нормально"/>
+     <gamestart id="135" name="Аргонский лидер" description="Вы аргонский командующий. Вам предстоит долгий путь развития, пока не будете готовы к войне с Землянами." difficulty="Base + Small Fleet" image="startRebelScripted" plot="0">
+          <player name="Аргонский лидер" species="Аргонец" gender="Аргон" age="Нормально"/>
           <!-- Rishi Moon -->
           <sector x="21" y="12"/>
-          <ship typename="SS_SH_SAT" comment="Спутниковая система навигации"/>
+          <ship typename="SS_SH_SAT" comment="Navigation Relay Satellite"/>
      </gamestart>
-     <gamestart id="142" name="Корсары Алаанквы" description="Высокопоставленный офицер землян задолжал вам крупную сумму. Вы согласились на устаревший транспортник &quot;Аккламатор&quot; с небольшим флотом поддержки." difficulty="TL" image="startPirate" plot="0">
-          <player name="Корсары Алаанквы" species="Независимые" gender="Земляне" age="Уникальный" />
+     <gamestart id="142" name="Корсары Алаанква" description="Высокопоставленный офицер землян задолжал вам крупную сумму. Вы согласились на устаревший транспортник &quot;Аккламатор&quot; с небольшим флотом поддержки." difficulty="TL" image="startPirate" plot="0">
+          <player name="Корсары Алаанква" species="Независимые" gender="Земляне" age="Уникальный" />
           <sector x="17" y="14" />
-          <ship typename="SS_SH_TR_TL_ACCLAMATORH_IMP" comment="Имперский транспортник Аккламатор" />
+          <ship typename="SS_SH_TR_TL_ACCLAMATORH_IMP" comment="Imperial Acclamator Hauler" />
      </gamestart>
 </gamestarts>
