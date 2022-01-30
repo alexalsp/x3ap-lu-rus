@@ -60,13 +60,13 @@
 
 ## Что за папки в моде и для чего они:
 
-**Step 1 - Install ReShade (Optional)** - Установка *Reshade*
-**Step 2 - Install Alaankwa** - сам мод и устанавливается всегда первым потом при необходимости патчи из *папки №3*. Этот мод для чистой *Litcube*.
-**Step 3 - Install Alaankwa Patch**
-	**Install if playing GiC** - если вы играете в *LU SW CIG* мод.
-	**Install if playing M3 or SWM3** - для *Mayhem 3* и для *LUSW Mayhem 3*
-	**Install if playing SWLU without Purls Extra Ships Pack** - если вы установили *LUSW*
-	**Install if playing SWLU with Purls Extra Ships Pack** - если вы установили *LUSW + мод SWLU Extra Ships v.0.3*(для русской и английской версии игры) - *https://apocalypse.moy.su/forum/341-1744-1
+* **Step 1 - Install ReShade (Optional)** - Установка *Reshade*
+* **Step 2 - Install Alaankwa** - сам мод и устанавливается всегда первым потом при необходимости патчи из *папки №3*. Этот мод для чистой *Litcube*.
+* **Step 3 - Install Alaankwa Patch**
+* 	**Install if playing GiC** - если вы играете в *LU SW CIG* мод.
+* 	**Install if playing M3 or SWM3** - для *Mayhem 3* и для *LUSW Mayhem 3*
+* 	**Install if playing SWLU without Purls Extra Ships Pack** - если вы установили *LUSW*
+* 	**Install if playing SWLU with Purls Extra Ships Pack** - если вы установили *LUSW + мод SWLU Extra Ships v.0.3*(для русской и английской версии игры) - https://apocalypse.moy.su/forum/341-1744-1
 	
 ## Ссылки на английские версии мода и более подробное описание:
 * temetvince Youtube Playlists (X3 Mod Install Videos):
