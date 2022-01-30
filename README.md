@@ -60,8 +60,8 @@
 
 ## Что за папки в моде и для чего они:
 
-1. **Step 1 - Install ReShade (Optional)** - Установка *Reshade*
-2. **Step 2 - Install Alaankwa** - сам мод и устанавливается всегда первым потом при необходимости патчи из *папки №3*. Этот мод для чистой *Litcube*.
+1. **Step 1 - Install ReShade (Optional)** - Установка *Reshade*. Если хотите, но я лично ни когда его не устанавливал. 
+2. **Step 2 - Install Alaankwa** - сам мод и устанавливается всегда первым, потом при необходимости патчи из *папки №3*. Эта папка содержит в себе основные файлы мода и предназначена для чистой *Litcube*.
 3. **Step 3 - Install Alaankwa Patch**
    - **Install if playing GiC** - если вы играете в *LU SW CIG* мод.
    - **Install if playing M3 or SWM3** - для *Mayhem 3* и для *LUSW Mayhem 3*
