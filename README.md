@@ -67,6 +67,15 @@
    - **Install if playing M3 or SWM3** - для *Mayhem 3* и для *LUSW Mayhem 3*
    - **Install if playing SWLU without Purls Extra Ships Pack** - если вы установили *LUSW*
    - **Install if playing SWLU with Purls Extra Ships Pack** - если вы установили *LUSW + мод SWLU Extra Ships v.0.3*(для русской и английской версии игры) - https://apocalypse.moy.su/forum/341-1744-1
+   
+### ПРИМЕР
+
+ Вы установили мод **Litcube Mayhem Star Wars**, что вы должны сделать:
+ - из папки **Step 2 - Install Alaankwa** в папку игры скопировать с заменой все файлы.
+ - из папки **Step 3 - Install Alaankwa Patch \ Install if playing M3 or SWM3** скопировать в папку игры все файлы с заменой.
+ 
+ Как вы видите файлы из папки 2 всегда должны быть скопированы первыми.
+
 	
 ## Ссылки на английские версии мода и более подробное описание:
 * temetvince Youtube Playlists (X3 Mod Install Videos):
