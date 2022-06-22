@@ -1,3 +1,6 @@
+# Поддержка Alaankwa 7.9.4
+* **Это последняя версия поддерживающая Mayhem 3.14d** - https://github.com/alexalsp/x3ap-lu-rus/releases/tag/v7.9.4
+
 # Домашняя страница 
 * https://apocalypse.moy.su/ 
 
@@ -51,6 +54,7 @@
     * (M3) Mayhem 3
 3. Опционально установите GiC, M3R, или SWM3
     * (GiC) Галактика в огне / Galaxy in Chaos - Требует SWLU
+    * (M3R) Mayhem 3 Rebalanced - Требует M3
     * (SWM3) Star Wars Mayhem 3 - Требует M3
 4. Установите все остальные моды по желанию, кроме Alaankwa
 5. Опционально установите ReShade
