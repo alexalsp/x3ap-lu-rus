@@ -1,5 +1,5 @@
 # Поддержка Alaankwa 7.9.4
-* **Это последняя версия поддерживающая Mayhem 3.14d** - https://github.com/alexalsp/x3ap-lu-rus/releases/tag/v7.9.4
+* **Это последняя версия поддерживающая Mayhem 3.14d** - https://github.com/alexalsp/x3ap-lu-rus/releases/tag/v.7.9.4
 
 # Домашняя страница 
 * https://apocalypse.moy.su/ 
